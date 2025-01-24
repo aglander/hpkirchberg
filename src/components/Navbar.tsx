@@ -6,7 +6,6 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Biographie", href: "/biographie" },
-    { name: "Termine", href: "/termine" },
     { name: "Musik", href: "/musik" },
     { name: "Bilder", href: "/bilder" },
     { name: "Presse", href: "/presse" },
