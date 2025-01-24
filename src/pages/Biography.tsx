@@ -25,7 +25,7 @@ const Biography = () => {
     { text: <span><b>Assistent</b> von <b>Mstislaw Rostropovitch</b> sowie <i>\"Conductor in Residence\"</i> der Deutsch-Sowjetischen Jungen Philharmonie (1990)</span> },
     { text: <span>Konzerte und mit dem Neuen Berliner Kammerorchester und <b>Helmuth Rilling</b> (1992)</span> },
     { text: <span>Gastverpflichtungen u.a. EUROPERA Görlitz (<i>\"Rigoletto\"</i>), Opernhaus Wuppertal (<i>\"La Bohème\"</i>), Neuköllner Oper Berlin (<i>\"Der Spielverderber\"</i>)</span> },
-    { text: <span>Berliner KammerOper (<i>\"Ezio\"</i>/Händel, <i>\"The fall of the house of Usher\"</i>/ Ph. Glass)</span> },
+    { text: <span>Berliner KammerOper (<i>\"Ezio\"</i> Händel, <i>\"The fall of the house of Usher\"</i> Ph. Glass)</span> },
     { text: <span><b>Lehrbeauftragter</b> der Hochschule für Musik <i>\"Hanns Eisler\"</i> Berlin (seit 1994)</span> },
     { text: "Beginn der regelmäßigen Arbeit als Musikalischer Leiter an der Neuköllner Oper" },
     { text: <span>Mitarbeit bei der <b>Nachwuchsförderung <i>\"Dirigentenforum\"</i></b> Deutscher Musikrat</span> },
