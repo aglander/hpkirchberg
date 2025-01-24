@@ -1,6 +1,7 @@
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import Navbar from "@/components/Navbar";
 
 const Links = () => {
   const links = [
@@ -62,14 +63,14 @@ const Links = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-[#EDE9CE]">
       <Navbar />
-      <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-8">Links</h1>
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h1 className="text-4xl font-serif text-gray-900 mb-8">Links</h1>
         
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {links.map((link, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow">
+            <Card key={index} className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <h2 className="text-xl font-semibold mb-2">{link.title}</h2>
                 <p className="text-gray-600 mb-4">{link.description}</p>
@@ -100,6 +101,7 @@ const Links = () => {
           <p>Hans-Peter Kirchberg</p>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
