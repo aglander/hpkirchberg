@@ -8,7 +8,6 @@ const Navbar = () => {
     { name: "Biographie", href: "/biographie" },
     { name: "Musik", href: "/musik" },
     { name: "Bilder", href: "/bilder" },
-    { name: "Presse", href: "/presse" },
     { name: "Links", href: "/links" },
     { name: "Kontakt", href: "/kontakt" },
   ];

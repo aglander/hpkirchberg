@@ -4,7 +4,6 @@ const Footer = () => {
     { name: "Termine", href: "/termine" },
     { name: "Musik", href: "/musik" },
     { name: "Bilder", href: "/bilder" },
-    { name: "Presse", href: "/presse" },
     { name: "Links", href: "/links" },
     { name: "Kontakt", href: "/kontakt" },
   ];
