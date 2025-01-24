@@ -11,12 +11,12 @@ const Biography = () => {
       { text: "THOMASSCHULE Leipzig" },
     ],
     [
-      { text: "Studium an der Hochschule für Musik \"Carl Maria von Weber\" Dresden" },
+      { text: "Studium an der Hochschule für Musik Carl Maria von Weber Dresden" },
       { text: "Dirigieren Prof. Rudolf Neuhaus, Prof. Dr. Peter Gölke" },
       { text: "Klavier Prof. Dr. Rudolf Neumann, Korrepetition Prof. Ernst Herrmann" },
     ],
     [
-      { text: <span><b>Dirigier-Debut</b> Staatsoper Dresden (<i>"Il Campiello"</i> von Wolf-Ferrari)</span> },
+      { text: <span><b>Dirigier-Debut</b> Staatsoper Dresden (<i>Il Campiello</i> von Wolf-Ferrari)</span> },
       { text: "Meisterklasse Igor Markevitch (Musikseminar Weimar)" },
       { text: <span>Externer Unterricht bei <b>Eugen Jochum</b> und <b>Rudolf Kempe</b></span> },
       { text: <span>Weiterbildung, Unterricht und Seminar bei <b>Kurt Masur</b></span> },
@@ -29,13 +29,13 @@ const Biography = () => {
       { text: <span>Dirigier-Kurs bei <b>Leonard Bernstein</b> (Schleswig-Holstein Musik-Festival 1988)</span> },
       { text: <span><b>Chefdirigent</b> des Sinfonischen Studio-Orchesters Leipzig (1989-94)</span> },
       { text: <span><b>Assistent</b> von <b>Leonard Bernstein</b> und <b>Christoph Eschenbach</b> (1989)</span> },
-      { text: <span><b>Assistent</b> von <b>Mstislaw Rostropovitch</b> sowie <i>"Conductor in Residence"</i> der Deutsch-Sowjetischen Jungen Philharmonie (1990)</span> },
+      { text: <span><b>Assistent</b> von <b>Mstislaw Rostropovitch</b> sowie <i>Conductor in Residence</i> der Deutsch-Sowjetischen Jungen Philharmonie (1990)</span> },
       { text: <span>Konzerte und mit dem Neuen Berliner Kammerorchester und <b>Helmuth Rilling</b> (1992)</span> },
-      { text: <span>Gastverpflichtungen u.a. EUROPERA Görlitz (<i>"Rigoletto"</i>), Opernhaus Wuppertal (<i>"La Bohème"</i>), Neuköllner Oper Berlin (<i>"Der Spielverderber"</i>)</span> },
-      { text: <span>Berliner KammerOper (<i>"Ezio"</i> Händel, <i>"The fall of the house of Usher"</i> Ph. Glass)</span> },
-      { text: <span><b>Lehrbeauftragter</b> der Hochschule für Musik <i>"Hanns Eisler"</i> Berlin (seit 1994)</span> },
+      { text: <span>Gastverpflichtungen u.a. EUROPERA Görlitz (<i>Rigoletto</i>), Opernhaus Wuppertal (<i>La Bohème</i>), Neuköllner Oper Berlin (<i>Der Spielverderber</i>)</span> },
+      { text: <span>Berliner KammerOper (<i>Ezio</i> Händel, <i>The fall of the house of Usher</i> Ph. Glass)</span> },
+      { text: <span><b>Lehrbeauftragter</b> der Hochschule für Musik <i>Hanns Eisler</i> Berlin (seit 1994)</span> },
       { text: "Beginn der regelmäßigen Arbeit als Musikalischer Leiter an der Neuköllner Oper" },
-      { text: <span>Mitarbeit bei der <b>Nachwuchsförderung <i>"Dirigentenforum"</i></b> Deutscher Musikrat</span> },
+      { text: <span>Mitarbeit bei der <b>Nachwuchsförderung <i>Dirigentenforum</i></b> Deutscher Musikrat</span> },
     ],
     [
       { text: <span>Konzerttätigkeit und Probenlager <b>LandesJugendSinfonieOrchester Brandenburg</b></span> },
@@ -43,7 +43,7 @@ const Biography = () => {
       { text: "Cinderella passt was nicht - einmonatiges Gastspiel Renaissance-Theater Wien" },
       { text: "Erste Begegnung mit Wiener Philharmonikern" },
       { text: "Musikalische Leitung BerlinerSalonOrchester, Konzert in der Philharmonie (KMS)" },
-      { text: <span>"Shomyo Symphony II" op.105b von Maki Ishii 2005 - Dirigent der Europäischen Erstaufführung, HdKdW</span> },
+      { text: <span>Shomyo Symphony II op.105b von Maki Ishii 2005 - Dirigent der Europäischen Erstaufführung, HdKdW</span> },
       { text: "Große Geburtstags-Gala zum 80. Geburtstag von Gerd Natschinski im Schloßtheater Rheinsberg (2008)" },
     ],
     [
@@ -64,9 +64,9 @@ const Biography = () => {
           <div className="space-y-12">
             {timelineGroups.map((group, groupIndex) => (
               <div key={groupIndex} className="space-y-2">
-                <ul className="list-disc list-inside space-y-2 pl-4">
+                <ul className="list-disc space-y-2">
                   {group.map((event, index) => (
-                    <li key={index} className="text-gray-800 hover:bg-white/70 transition-colors rounded-lg p-2">
+                    <li key={index} className="text-gray-800 hover:bg-white/70 transition-colors rounded-lg p-2 ml-6 pl-2">
                       {event.text}
                     </li>
                   ))}
