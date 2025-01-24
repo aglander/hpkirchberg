@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { GraduationCap, Music, Award, Calendar } from "lucide-react";
 
 const Biography = () => {
   const timelineEvents = [
@@ -16,16 +15,31 @@ const Biography = () => {
     { text: "Meisterklasse Igor Markevitch (Musikseminar Weimar)" },
     { text: "Externer Unterricht bei Eugen Jochum und Rudolf Kempe" },
     { text: "Weiterbildung, Unterricht und Seminar bei Kurt Masur" },
+    { text: "Dirigier-Lehrgänge bei Wolf-Dieter Hauschild, Rolf Reuter und Heinz Rögner" },
     { text: "Solo-Repetitor mit Dirigierverpflichtung (Opernhaus Chemnitz 1980-85)" },
     { text: "1. Kapellmeister (Opernhaus Zwickau 1985-89)" },
     { text: "Internationaler Dirigier-Wettbewerb Budapest 1986" },
     { text: "Dirigier-Kurs bei Leonard Bernstein (Schleswig-Holstein Musik-Festival 1988)" },
     { text: "Chefdirigent des Sinfonischen Studio-Orchesters Leipzig (1989-94)" },
     { text: "Assistent von Leonard Bernstein und Christoph Eschenbach (1989)" },
-    { text: "Musikalischer Direktor der Neuköllner Oper (2002)" },
+    { text: "Assistent von Mstislaw Rostropovitch sowie \"Conductor in Residence\" der Deutsch-Sowjetischen Jungen Philharmonie (1990)" },
+    { text: "Konzerte und mit dem Neuen Berliner Kammerorchester und Helmuth Rilling (1992)" },
+    { text: "Gastverpflichtungen u.a. EUROPERA Görlitz (\"Rigoletto\"), Opernhaus Wuppertal (\"La Bohème\"), Neuköllner Oper Berlin (\"Der Spielverderber\")" },
+    { text: "Berliner KammerOper (\"Ezio\"/Händel, \"The fall of the house of Usher\"/ Ph. Glass)" },
+    { text: "Lehrbeauftragter der Hochschule für Musik \"Hanns Eisler\" Berlin (seit 1994)" },
+    { text: "Beginn der regelmäßigen Arbeit als Musikalischer Leiter an der Neuköllner Oper" },
+    { text: "Mitarbeit bei der Nachwuchsförderung \"Dirigentenforum\" Deutscher Musikrat" },
+    { text: "Konzerttätigkeit und Probenlager LandesJugendSinfonieOrchester Brandenburg" },
+    { text: "Musikalischer Direktor der Neuköllner Oper (2002), seitdem jährlich max. 6 Produktionen" },
+    { text: "Cinderella passt was nicht - einmonatiges Gastspiel Renaissance-Theater Wien" },
+    { text: "Erste Begegnung mit Wiener Philharmonikern" },
+    { text: "Musikalische Leitung BerlinerSalonOrchester, Konzert in der Philharmonie (KMS)" },
+    { text: "\"Shomyo Symphony II\" op.105b von Maki Ishii 2005 - Dirigent der Europäischen Erstaufführung, HdKdW" },
+    { text: "Große Geburtstags-Gala zum 80. Geburtstag von Gerd Natschinski im Schloßtheater Rheinsberg (2008)" },
     { text: "30jähriges Bühnenjubiläum (2009)" },
     { text: "1000. Vorstellung an der Neuköllner Oper geleitet (2009)" },
-    { text: "2010 - erste musikalische Arbeit bei den Bayreuther Festspielen" }
+    { text: "Preisträger \"Silbernes Blatt\" der Dramatiker-Union \"für Verdienste um die Förderung und Pflege des zeitgenössischen musikdramatischen Schaffens\" (2009)" },
+    { text: "2010 - erste musikalische Arbeit bei den Bayreuther Festspielen (\"Wagner für Kinder\" - Tannhäuser)" }
   ];
 
   return (
@@ -35,13 +49,9 @@ const Biography = () => {
         <div className="bg-white/80 rounded-lg shadow-lg p-6 mb-8">
           <h1 className="text-3xl font-serif mb-6 text-gray-900">Biographie</h1>
           
-          <div className="space-y-6">
+          <div className="space-y-4">
             {timelineEvents.map((event, index) => (
-              <div key={index} className="flex items-start gap-4 p-4 bg-white/50 rounded-lg hover:bg-white/70 transition-colors">
-                {index % 4 === 0 && <GraduationCap className="text-gray-600 mt-1" />}
-                {index % 4 === 1 && <Music className="text-gray-600 mt-1" />}
-                {index % 4 === 2 && <Award className="text-gray-600 mt-1" />}
-                {index % 4 === 3 && <Calendar className="text-gray-600 mt-1" />}
+              <div key={index} className="p-4 bg-white/50 rounded-lg hover:bg-white/70 transition-colors">
                 <p className="text-gray-800">{event.text}</p>
               </div>
             ))}
