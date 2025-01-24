@@ -34,7 +34,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 088 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 087 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/34.jpg"
   },
   {
@@ -46,7 +46,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 087 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 086 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/33.jpg"
   },
   {
@@ -58,7 +58,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 086 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 085 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/32.jpg"
   },
   {
@@ -70,7 +70,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 085 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 084 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/31.jpg"
   },
   {
@@ -82,7 +82,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 084 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 083 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/30.jpg"
   },
   {
@@ -94,7 +94,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 083 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 082 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/29.jpg"
   },
   {
@@ -106,7 +106,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 082 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 081 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/28.jpg"
   },
   {
@@ -118,7 +118,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 081 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 080 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/27.jpg"
   },
   {
@@ -130,7 +130,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 080 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 079 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/26.jpg"
   },
   {
@@ -142,7 +142,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 079 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 078 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/25.jpg"
   },
   {
@@ -154,7 +154,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 078 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 077 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/24.jpg"
   },
   {
@@ -166,7 +166,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 077 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 076 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/23.jpg"
   },
   {
@@ -178,7 +178,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 076 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 075 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/22.jpg"
   },
   {
@@ -190,7 +190,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 075 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 074 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/21.jpg"
   },
   {
@@ -202,7 +202,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 074 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 073 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/20.jpg"
   },
   {
@@ -214,7 +214,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 073 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 072 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/19.jpg"
   },
   {
@@ -226,7 +226,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 072 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 071 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/18.jpg"
   },
   {
@@ -238,7 +238,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 071 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 070 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/17.jpg"
   },
   {
@@ -250,7 +250,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 070 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 069 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/16.jpg"
   },
   {
@@ -262,7 +262,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 069 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 068 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/15.jpg"
   },
   {
@@ -274,7 +274,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 068 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 067 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/14.jpg"
   },
   {
@@ -286,7 +286,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 067 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 066 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/13.jpg"
   },
   {
@@ -298,7 +298,7 @@ export const albums: Album[] = [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 066 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 065 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/12.jpg"
   },
   {
@@ -312,6 +312,126 @@ export const albums: Album[] = [
       "Dirigent: Mstislaw Rostropowitsch"
     ],
     orderInfo: "Archiv-Produktion, live-Mitschnitt 20.07.90",
-    coverImage: "/assets/albums/24.jpg"
+    coverImage: "/assets/albums/11.jpg"
+  },
+  {
+    id: 27,
+    year: "1989",
+    composer: "Zaufke & Lund",
+    title: "Der Zauberer von Oz",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 064 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/10.jpg"
+  },
+  {
+    id: 28,
+    year: "1988",
+    composer: "Zaufke & Lund",
+    title: "Die Dreigroschenoper",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 063 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/09.jpg"
+  },
+  {
+    id: 29,
+    year: "1987",
+    composer: "Zaufke & Lund",
+    title: "Der kleine Horrorladen",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 062 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/08.jpg"
+  },
+  {
+    id: 30,
+    year: "1986",
+    composer: "Zaufke & Lund",
+    title: "Kiss Me, Kate",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 061 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/07.jpg"
+  },
+  {
+    id: 31,
+    year: "1985",
+    composer: "Zaufke & Lund",
+    title: "Die Csárdásfürstin",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 060 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/06.jpg"
+  },
+  {
+    id: 32,
+    year: "1984",
+    composer: "Zaufke & Lund",
+    title: "My Fair Lady",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 059 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/05.jpg"
+  },
+  {
+    id: 33,
+    year: "1983",
+    composer: "Zaufke & Lund",
+    title: "Die Fledermaus",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 058 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/04.jpg"
+  },
+  {
+    id: 34,
+    year: "1982",
+    composer: "Zaufke & Lund",
+    title: "Cabaret",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 057 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/03.jpg"
+  },
+  {
+    id: 35,
+    year: "1981",
+    composer: "Zaufke & Lund",
+    title: "West Side Story",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 056 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/02.jpg"
+  },
+  {
+    id: 36,
+    year: "1980",
+    composer: "Zaufke & Lund",
+    title: "Jesus Christ Superstar",
+    performers: [
+      "UdK-Musicalstudenten und Orchester der Neuk. Oper",
+      "H.-Peter Kirchberg, Mus. Leitung + Klavier"
+    ],
+    orderInfo: "Best.-Nr. 055 (soundofmusic.de + NKO)",
+    coverImage: "/assets/albums/01.jpg"
   }
 ];
