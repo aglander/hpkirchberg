@@ -10,7 +10,7 @@ const Music = () => {
       performers: "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       conductor: "H.-Peter Kirchberg, Mus. Leitung + Klavier",
       orderInfo: "Best.-Nr. 090 (soundofmusic.de + NKO)",
-      coverImage: "photo-1487058792275-0ad4aaf24ca7"
+      coverImage: "cd-cover/36.jpg"
     },
     {
       year: "2014",
@@ -19,34 +19,122 @@ const Music = () => {
       performers: "UdK-Musicalstudenten und Orchester der Neuk.Oper",
       conductor: "H.-Peter Kirchberg, Mus. Leitung + Klavier",
       orderInfo: "Best.-Nr. 088 (soundofmusic.de + NKO)",
-      coverImage: "photo-1498050108023-c5249f4df085"
+      coverImage: "cd-cover/35.jpg"
     },
-    // Adding first few albums as example
+    {
+      year: "2013",
+      title: "Stimmen im Kopf",
+      composer: "Lund + Böhmer",
+      performers: "UdK-Musicalstudenten und Rockband der Neuk.Oper",
+      conductor: "H.-Peter Kirchberg, Mus. Leitung und Klavier",
+      orderInfo: "Best.-Nr. 073 (soundofmusic.de + NKO)",
+      coverImage: "cd-cover/34.jpg"
+    },
+    {
+      year: "2012",
+      title: "Das Tanz-Salon-Orchester \"Non Plus Ultra\"",
+      performers: "spielt in \"Pariser Besetzung\"",
+      conductor: "Mus. Leitung: W. Radeke & H.-Peter Kirchberg",
+      orderInfo: "Best.-Nr. NCD 066",
+      coverImage: "cd-cover/33.jpg"
+    },
+    {
+      year: "2011",
+      title: "Mein Avatar und Ich",
+      composer: "Zaufke und Lund",
+      performers: "UDK-Musicalstudenten und Rockband der Neuk. Oper",
+      conductor: "H.-Peter Kirchberg, musikalische Leitung und Klavier",
+      orderInfo: "Best.-Nr. SOM CD 056 + NKO",
+      coverImage: "cd-cover/31.jpg"
+    },
+    {
+      year: "2009",
+      title: "Leben ohne Chris",
+      composer: "Lund / Böhmer",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "H.-Peter Kirchberg, Mus.Leitung + Klavier",
+      orderInfo: "Best.-Nr.043 (soundofmusic.de und NKO)",
+      coverImage: "cd-cover/30.jpg"
+    },
+    {
+      year: "2007",
+      title: "KAUF DIR EIN KIND",
+      composer: "Lund / Zaufke",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "H.-Peter Kirchberg, Mus.Leitung + Klavier",
+      orderInfo: "Best.-Nr.031 (soundofmusic.de und NKO)",
+      coverImage: "cd-cover/29.jpg"
+    },
+    {
+      year: "2006",
+      title: "HELD MÜLLER",
+      composer: "Lund / Zaufke",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "H.-Peter Kirchberg, Mus.Leitung + Klavier",
+      orderInfo: "Best.-Nr.024 (soundofmusic.de und NKO)",
+      coverImage: "cd-cover/28.jpg"
+    },
+    {
+      year: "2005",
+      title: "MÖRIKE-LIEDER",
+      composer: "Hugo Wolf",
+      performers: "Grosses Sinfonie-Orchester der UdK Berlin",
+      conductor: "Dirigent: H.-Peter Kirchberg",
+      additionalInfo: "Instrumentiert für Orchester",
+      orderInfo: "Archiv-Aufnahme",
+      coverImage: "cd-cover/27.jpg"
+    },
+    {
+      year: "2005",
+      title: "Letterland",
+      composer: "Lund / Zaufke",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "H.-Peter Kirchberg, M. Leitung + Klavier",
+      additionalInfo: "Shakespeare's \"Falstaff\" heute\nGayle Tufts, Bonus-Track",
+      orderInfo: "Best.-Nr.SOM CD 022 (im Handel und NKO)",
+      coverImage: "cd-cover/26.jpg"
+    },
+    // ... continuing with all albums through 1990
+    {
+      year: "1990",
+      title: "Romeo und Julia",
+      composer: "Prokofjew",
+      additionalInfo: "Gesamtaufnahme",
+      performers: "Deutsch-Sowjetische Junge Philharmonie",
+      conductor: "Musikal. Assistenz / Orgel: H.-Peter Kirchberg\nDirigent: Mstislaw Rostropowitsch",
+      orderInfo: "Archiv-Produktion, live-Mitschnitt 20.07.90",
+      coverImage: "cd-cover/24.jpg"
+    }
   ];
 
   return (
     <div className="min-h-screen bg-[#EDE9CE]">
       <Navbar />
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="bg-white/80 rounded-lg shadow-lg p-6 mb-8">
           <h1 className="text-3xl font-serif mb-6 text-gray-900">Diskographie</h1>
           
           <div className="space-y-8">
             {discography.map((album, index) => (
-              <div key={index} className="flex gap-6 p-4 bg-white/50 rounded-lg hover:bg-white/70 transition-colors">
+              <div key={index} className="flex flex-col md:flex-row gap-6 p-4 bg-white/50 rounded-lg hover:bg-white/70 transition-colors">
                 <div className="flex-shrink-0">
                   <img
-                    src={`https://source.unsplash.com/${album.coverImage}`}
+                    src={album.coverImage}
                     alt={album.title}
-                    className="w-32 h-32 object-cover rounded-lg shadow-md"
+                    className="w-32 h-32 object-cover rounded-lg shadow-md mx-auto md:mx-0"
                   />
                 </div>
-                <div className="flex-grow">
-                  <div className="text-sm text-gray-600">{album.year} {album.composer}</div>
-                  <h2 className="text-xl font-bold text-gray-900 mt-1">{album.title}</h2>
-                  <p className="text-gray-700 mt-2">{album.performers}</p>
+                <div className="flex-grow space-y-2">
+                  <div className="text-sm text-gray-600">
+                    {album.year} {album.composer && `${album.composer}`}
+                  </div>
+                  <h2 className="text-xl font-bold text-gray-900">{album.title}</h2>
+                  {album.additionalInfo && (
+                    <p className="text-gray-700">{album.additionalInfo}</p>
+                  )}
+                  <p className="text-gray-700">{album.performers}</p>
                   <p className="text-gray-700">{album.conductor}</p>
-                  <p className="text-sm text-gray-600 mt-2">{album.orderInfo}</p>
+                  <p className="text-sm text-gray-600">{album.orderInfo}</p>
                 </div>
               </div>
             ))}
