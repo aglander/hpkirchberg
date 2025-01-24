@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const Contact = () => {
   const contactInfo = [
     {
-      title: "Private Contact",
+      title: "Hans-Peter Kirchberg",
       name: "Hans-Peter Kirchberg",
       address: "Fontanestr. 49",
       city: "D-15566 Schöneiche bei Berlin",
