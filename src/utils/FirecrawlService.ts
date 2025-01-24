@@ -61,6 +61,11 @@ export class FirecrawlService {
         limit: 100,
         scrapeOptions: {
           formats: ['markdown', 'html'],
+          rejectUnauthorized: false, // Allow invalid SSL certificates
+          ignoreHTTPSErrors: true, // Ignore HTTPS errors
+        },
+        browserOptions: {
+          ignoreHTTPSErrors: true, // Ignore HTTPS errors in browser context
         }
       }) as CrawlResponse;
 
