@@ -1,10 +1,15 @@
-import { CrawlForm } from "@/components/CrawlForm";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Welcome from "@/components/Welcome";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-6">Website Crawler</h1>
-      <CrawlForm />
+    <div className="min-h-screen bg-[#EDE9CE]">
+      <Navbar />
+      <Hero />
+      <Welcome />
+      <Footer />
     </div>
   );
 };

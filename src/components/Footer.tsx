@@ -1,57 +1,29 @@
 const Footer = () => {
+  const navItems = [
+    { name: "Biographie", href: "/biographie" },
+    { name: "Termine", href: "/termine" },
+    { name: "Musik", href: "/musik" },
+    { name: "Bilder", href: "/bilder" },
+    { name: "Presse", href: "/presse" },
+    { name: "Links", href: "/links" },
+    { name: "Kontakt", href: "/kontakt" },
+  ];
+
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">HP Kirchberg</h3>
-            <p className="text-gray-300">
-              Handball mit Tradition seit 1974
-            </p>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#news" className="text-gray-300 hover:text-white transition-colors">
-                  News
-                </a>
-              </li>
-              <li>
-                <a href="#teams" className="text-gray-300 hover:text-white transition-colors">
-                  Teams
-                </a>
-              </li>
-              <li>
-                <a href="#training" className="text-gray-300 hover:text-white transition-colors">
-                  Training
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-                  Kontakt
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Rechtliches</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Impressum
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Datenschutz
-                </a>
-              </li>
-            </ul>
-          </div>
+    <footer className="bg-[#EDE9CE] text-gray-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex flex-wrap justify-center gap-4">
+          {navItems.map((item, index) => (
+            <span key={item.name}>
+              <a href={item.href} className="hover:text-gray-600">
+                {item.name}
+              </a>
+              {index < navItems.length - 1 && <span className="ml-4">|</span>}
+            </span>
+          ))}
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
-          <p>&copy; {new Date().getFullYear()} HP Kirchberg. Alle Rechte vorbehalten.</p>
+        <div className="mt-8 text-center text-sm">
+          <p>© {new Date().getFullYear()} Hans-Peter Kirchberg. Alle Rechte vorbehalten.</p>
         </div>
       </div>
     </footer>
