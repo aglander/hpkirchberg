@@ -7,7 +7,6 @@ const Contact = () => {
   const contactInfo = [
     {
       title: "Hans-Peter Kirchberg",
-      name: "Hans-Peter Kirchberg",
       address: "Fontanestr. 49",
       city: "D-15566 Schöneiche bei Berlin",
       phone: "+49 30 643 89 560",
@@ -39,16 +38,13 @@ const Contact = () => {
                 <h2 className="text-xl font-semibold mb-4">{info.title}</h2>
                 
                 <div className="space-y-3">
-                  {info.name && (
-                    <div className="flex items-start gap-3">
-                      <MapPin className="w-5 h-5 text-primary mt-1" />
-                      <div>
-                        <p className="font-medium">{info.name}</p>
-                        <p className="text-gray-600">{info.address}</p>
-                        <p className="text-gray-600">{info.city}</p>
-                      </div>
+                  <div className="flex items-start gap-3">
+                    <MapPin className="w-5 h-5 text-primary mt-1" />
+                    <div>
+                      <p className="text-gray-600">{info.address}</p>
+                      <p className="text-gray-600">{info.city}</p>
                     </div>
-                  )}
+                  </div>
                   
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-primary mt-1" />
