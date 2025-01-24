@@ -1,25 +1,10 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import NewsSection from "@/components/NewsSection";
-import TeamsSection from "@/components/TeamsSection";
-import TrainingSection from "@/components/TrainingSection";
-import ContactSection from "@/components/ContactSection";
-import SponsorsSection from "@/components/SponsorsSection";
-import Footer from "@/components/Footer";
+import { CrawlForm } from "@/components/CrawlForm";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <main className="pt-16">
-        <Hero />
-        <NewsSection />
-        <TeamsSection />
-        <TrainingSection />
-        <ContactSection />
-        <SponsorsSection />
-      </main>
-      <Footer />
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-2xl font-bold mb-6">Website Crawler</h1>
+      <CrawlForm />
     </div>
   );
 };
