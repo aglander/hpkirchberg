@@ -17,12 +17,12 @@ export const albums: Album[] = [
     id: 2,
     year: "2014",
     composer: "Zaufke & Lund",
-    title: "Jedermann",
+    title: "Schwestern im Geiste",
     performers: [
       "UdK-Musicalstudenten und Orchester der Neuk. Oper",
       "H.-Peter Kirchberg, Mus. Leitung + Klavier"
     ],
-    orderInfo: "Best.-Nr. 089 (soundofmusic.de + NKO)",
+    orderInfo: "Best.-Nr. 088 (soundofmusic.de + NKO)",
     coverImage: "/assets/albums/35.jpg"
   },
   {
