@@ -57,12 +57,8 @@ export class FirecrawlService {
         this.firecrawlApp = new FirecrawlApp({ apiKey });
       }
 
-      const crawlResponse = await this.firecrawlApp.crawlUrl(url, {
-        limit: 100,
-        scrapeOptions: {
-          formats: ['markdown', 'html']
-        }
-      }) as CrawlResponse;
+      // Using minimal configuration to test basic functionality
+      const crawlResponse = await this.firecrawlApp.crawlUrl(url) as CrawlResponse;
 
       if (!crawlResponse.success) {
         console.error('Crawl failed:', (crawlResponse as ErrorResponse).error);
