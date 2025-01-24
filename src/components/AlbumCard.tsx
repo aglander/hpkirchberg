@@ -5,6 +5,8 @@ interface AlbumCardProps {
 }
 
 const AlbumCard = ({ album }: AlbumCardProps) => {
+  console.log("Rendering album:", album.title, "with cover:", album.coverImage); // Debug log
+
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200">
       <div className="aspect-square overflow-hidden">
@@ -12,6 +14,10 @@ const AlbumCard = ({ album }: AlbumCardProps) => {
           src={album.coverImage}
           alt={`Cover for ${album.title}`}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
+          onError={(e) => {
+            console.error(`Error loading image for ${album.title}:`, e);
+            e.currentTarget.src = "/placeholder.svg"; // Fallback image
+          }}
         />
       </div>
       <div className="p-4">
