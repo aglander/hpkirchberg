@@ -143,12 +143,158 @@ const Music = () => {
     },
     {
       year: "2002",
-      title: "Operette & Musical vol. 2",
-      additionalInfo: "u.a. mit Böhmers \"Wunder von Neukölln\"",
+      title: "Operette & Musical vol. 1",
+      additionalInfo: "u.a. Natschinski's \"Messeschlager Gisela\"",
       performers: "Solisten und Orchester der Neuköllner Oper",
       conductor: "Hans-Peter Kirchberg, Musikalische Leitung",
-      orderInfo: "im Handel erhältlich unter: RCA Read Seal/Ariola Classics 74321 73546 2",
-      coverImage: "cd-cover/25.jpg"
+      orderInfo: "im Handel erhältlich unter: RCA Red Seal/ Ariola Classics 74321 73545 2",
+      coverImage: "cd-cover/19.jpg"
+    },
+    {
+      year: "2002",
+      composer: "Böhmer, Radeke, Ramdohr, Zaufke",
+      title: "25 Jahre Neuköllner Oper",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "Dirigenten: Hans-Peter Kirchberg + Winfried Radeke",
+      orderInfo: "Archiv-Produktion",
+      coverImage: "cd-cover/15.jpg"
+    },
+    {
+      year: "2002",
+      composer: "Schwemmer",
+      title: "Angela – Eine Nationaloper",
+      additionalInfo: "Live-Mitschnitt der Oper über Angela Merkel aus dem U-Bahnhof Reichstag",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      orderInfo: "Archiv-Produktion",
+      coverImage: "cd-cover/14.jpg"
+    },
+    {
+      year: "2002",
+      composer: "Sondheim",
+      title: "Assassins-Attentäter",
+      performers: "Musical-Studenten der UdK Berlin und Orchester der Neuköllner Oper",
+      conductor: "Hans-Peter Kirchberg, Leitung und Klavier",
+      orderInfo: "Archiv-Produktion",
+      coverImage: "cd-cover/13.jpg"
+    },
+    {
+      year: "2001",
+      composer: "Lund/Zaufke",
+      title: "Cinderella passt was nicht",
+      additionalInfo: "Ein ziemlich schräges Märchen-Musical",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "Hans-Peter Kirchberg, Leitung und Klavier",
+      orderInfo: "Im Handel und über Neuköllner Oper erhältlich",
+      coverImage: "cd-cover/12.jpg"
+    },
+    {
+      year: "2001",
+      composer: "Lund/Böhmer",
+      title: "Love Bite – Biss ins Herz",
+      performers: "Musical-Studenten der UdK Berlin und Orchester der Neuköllner Oper",
+      conductor: "Hans-Peter Kirchberg, Leitung und Klavier",
+      orderInfo: "Über Neuköllner Oper erhältlich",
+      coverImage: "cd-cover/11.jpg"
+    },
+    {
+      year: "2000",
+      composer: "Benda, J.Chr.Bach, Stamitz, Gossec, Weber",
+      title: "Märsche & Bläsermusik",
+      performers: "Bläser des Rundfunk-Sinfonie-Orchesters Berlin",
+      conductor: "Dirigenten: Hans-Peter Kirchberg und Sebastian Weigle",
+      orderInfo: "Im Handel erhältlich (Capriccio 10499)",
+      coverImage: "cd-cover/16.jpg"
+    },
+    {
+      year: "2000",
+      composer: "Schubert",
+      title: "Die Winterreise",
+      additionalInfo: "excerpts",
+      performers: "Eberhard Kirchberg, Bariton",
+      conductor: "Hans-Peter Kirchberg, Klavier",
+      orderInfo: "Archiv-Produktion",
+      coverImage: "cd-cover/10.jpg"
+    },
+    {
+      year: "2000",
+      title: "Dirigent Hans-Peter Kirchberg",
+      additionalInfo: "u.a. aus Grieg \"Peer-Gynt-Suite\", Schumann \"Frühlingssinfonie\", Puccini \"La Bohème\"",
+      orderInfo: "Archiv-Produktion",
+      coverImage: "cd-cover/09.jpg"
+    },
+    {
+      year: "2000",
+      composer: "Bürkholz",
+      title: "Rheinsberger Maskerade",
+      performers: "Solisten und Orchester der Musikakademie Rheinsberg",
+      conductor: "Hans-Peter Kirchberg, Leitung",
+      orderInfo: "Archiv-Produktion",
+      coverImage: "cd-cover/08.jpg"
+    },
+    {
+      year: "1999",
+      composer: "Lund/Böhmer",
+      title: "Das Wunder von Neukölln",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "Hans-Peter Kirchberg, Leitung und Klavier",
+      orderInfo: "Im Handel und über Neuköllner Oper erhältlich",
+      coverImage: "cd-cover/07.jpg"
+    },
+    {
+      year: "1998",
+      composer: "Brecht/Eisler",
+      title: "Die Mutter",
+      additionalInfo: "(Urfassung)",
+      performers: "Eberhard Kirchberg, Bariton\nGarbriele Heinz, Pelagea Wlassowa",
+      conductor: "Hans-Peter Kirchberg, Leitung und Klavier",
+      orderInfo: "über theater89 erhältlich",
+      coverImage: "cd-cover/06.jpg"
+    },
+    {
+      year: "1998",
+      composer: "Natschinski (arr.Schwemmer)",
+      title: "Gisela",
+      additionalInfo: "Erfolgs-Produktion der Neuköllner Oper",
+      performers: "Solisten und Orchester der Neuköllner Oper",
+      conductor: "Hans-Peter Kirchberg, Leitung und Klavier",
+      orderInfo: "Über Neuköllner Oper erhältlich",
+      coverImage: "cd-cover/05.jpg"
+    },
+    {
+      year: "1996",
+      composer: "Paul Lincke",
+      title: "Folies Bergère",
+      performers: "Salonorchester NonPlusUltra",
+      conductor: "Winfried Radeke, Leitung\nHans-Peter Kirchberg, Klavier",
+      orderInfo: "Über Neuköllner Oper erhältlich",
+      coverImage: "cd-cover/04.jpg"
+    },
+    {
+      year: "1995",
+      composer: "Korngold",
+      title: "Between Two Worlds",
+      performers: "Rundfunk-Sinfonieorchester Berlin",
+      conductor: "John Mauceri, Leitung\nHans-Peter Kirchberg, Orgel",
+      orderInfo: "Im Handel erhältlich (Decca 444 170-2)",
+      coverImage: "cd-cover/03.jpg"
+    },
+    {
+      year: "1993",
+      composer: "Händel",
+      title: "Ezio",
+      performers: "Solisten und Orchester der Berliner Kammeroper",
+      conductor: "Brymor Llewelyn Jones, Leitung\nHans-Peter Kirchberg, Cembalo",
+      orderInfo: "Im Handel erhältlich (DS 1051-2)",
+      coverImage: "cd-cover/02.jpg"
+    },
+    {
+      year: "1992",
+      composer: "Manfredini, Corelli, Händel, Locatelli",
+      title: "Weihnachtskonzerte",
+      performers: "Neues Berliner Kammerorchester",
+      conductor: "Michael Erxleben, Leitung\nHans-Peter Kirchberg, Cembalo & Orgel",
+      orderInfo: "Im Handel erhältlich (Capriccio 10442)",
+      coverImage: "cd-cover/01.jpg"
     },
     {
       year: "1990",
