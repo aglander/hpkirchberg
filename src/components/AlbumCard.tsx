@@ -5,7 +5,7 @@ interface AlbumCardProps {
 }
 
 const AlbumCard = ({ album }: AlbumCardProps) => {
-  console.log("Rendering album:", album.title, "with cover:", album.coverImage); // Debug log
+  console.log("Rendering album card:", album.title, "with cover:", album.coverImage); // Debug log
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200">
@@ -18,6 +18,7 @@ const AlbumCard = ({ album }: AlbumCardProps) => {
             console.error(`Error loading image for ${album.title}:`, e);
             e.currentTarget.src = "/placeholder.svg"; // Fallback image
           }}
+          loading="lazy"
         />
       </div>
       <div className="p-4">
