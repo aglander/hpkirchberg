@@ -4,10 +4,10 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("/lovable-uploads/f54ca29c-32fc-412b-96cc-748a0a2b3004.png")',
+          backgroundImage: 'url("/lovable-uploads/b4a00807-139c-46c9-b1d6-1d8e0ffe0514.png")',
         }}
       />
-      <div className="absolute inset-0 bg-black/40" /> {/* Overlay for better text contrast */}
+      <div className="absolute inset-0 bg-black/40" />
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
         <h1 className="text-4xl md:text-6xl font-serif text-white mb-4">
           Dirigent
