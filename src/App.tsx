@@ -8,6 +8,7 @@ import Biography from "./pages/Biography";
 import Music from "./pages/Music";
 import Links from "./pages/Links";
 import Contact from "./pages/Contact";
+import Pictures from "./pages/Pictures";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/biographie" element={<Biography />} />
+          <Route path="/bilder" element={<Pictures />} />
           <Route path="/musik" element={<Music />} />
           <Route path="/links" element={<Links />} />
           <Route path="/kontakt" element={<Contact />} />
