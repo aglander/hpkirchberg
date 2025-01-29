@@ -1,9 +1,7 @@
 import { Album } from '@/types/album';
 
-// This will be replaced by dynamic imports of MDX files
 const MDX_ALBUMS = import.meta.glob('../content/albums/*.mdx', {
   eager: true,
-  import: 'default',
 });
 
 export async function getAllAlbums(): Promise<Album[]> {
