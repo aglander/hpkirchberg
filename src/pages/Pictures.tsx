@@ -27,6 +27,26 @@ const Pictures = () => {
       src: "/lovable-uploads/86d5ad8e-f5d7-4563-b588-0fdd39636afe.png",
       alt: "Performance at piano",
       year: "Concert evening"
+    },
+    {
+      src: "/lovable-uploads/f54ca29c-32fc-412b-96cc-748a0a2b3004.png",
+      alt: "Piano performance",
+      year: "Concert"
+    },
+    {
+      src: "/lovable-uploads/0c0c0c0c-0c0c-0c0c-0c0c-0c0c0c0c0c0c.png",
+      alt: "Piano recital",
+      year: "Recital"
+    },
+    {
+      src: "/lovable-uploads/1d1d1d1d-1d1d-1d1d-1d1d-1d1d1d1d1d1d.png",
+      alt: "Concert performance",
+      year: "Performance"
+    },
+    {
+      src: "/lovable-uploads/2e2e2e2e-2e2e-2e2e-2e2e-2e2e2e2e2e2e.png",
+      alt: "Piano concert",
+      year: "Concert"
     }
   ];
 
