@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => ({
     },
     // Ensure assets are handled correctly
     assetsDir: 'assets',
-    // Generate static HTML for each route
-    ssrManifest: true,
+    // Copy _redirects file to build output
+    copyPublicDir: true,
   },
 }));
