@@ -10,6 +10,11 @@ const Welcome = () => {
           Ich würde mich freuen, wenn die Webseite Ihnen hilft, all jene Informationen über meine bisherige, gegenwärtige und zukünftige Arbeit zu finden, die Sie, verehrter Besucher, benötigen.
         </p>
         <div className="text-right italic">
+          <img 
+            src="/assets/general/signatur.gif" 
+            alt="Hans-Peter Kirchberg Signature" 
+            className="inline-block mb-2 h-16"
+          />
           <p className="text-xl">Hans-Peter Kirchberg</p>
         </div>
       </div>
