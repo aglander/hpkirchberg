@@ -14,7 +14,7 @@ const ImageLightbox = ({ isOpen, onClose, imageSrc, imageAlt }: ImageLightboxPro
         <img
           src={imageSrc}
           alt={imageAlt}
-          className="w-full h-full object-contain"
+          className="w-auto h-auto max-w-full max-h-full object-contain"
         />
       </DialogContent>
     </Dialog>

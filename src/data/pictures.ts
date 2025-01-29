@@ -1,4 +1,4 @@
-interface PictureItem {
+export interface PictureItem {
   src: string;
   alt: string;
   year: string;
