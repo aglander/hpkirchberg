@@ -138,6 +138,107 @@ const Pictures = () => {
     }
   ];
 
+  const importantMeetingsImages = [
+    {
+      src: "/assets/pictures/wichtige-begegnungen/06.jpg",
+      alt: "Important meeting",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/07.jpg",
+      alt: "Important encounter",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/10.jpg",
+      alt: "Significant meeting",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/13.jpg",
+      alt: "Important discussion",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/15.jpg",
+      alt: "Key meeting",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/16.jpg",
+      alt: "Notable encounter",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/18.jpg",
+      alt: "Important gathering",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/19.jpg",
+      alt: "Significant discussion",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/21.jpg",
+      alt: "Key encounter",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/23.jpg",
+      alt: "Notable meeting",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/32.jpg",
+      alt: "Important discussion",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/33.jpg",
+      alt: "Significant gathering",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/36.jpg",
+      alt: "Key meeting",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/40.jpg",
+      alt: "Notable discussion",
+      year: "Meeting"
+    },
+    {
+      src: "/assets/pictures/wichtige-begegnungen/41.jpg",
+      alt: "Important encounter",
+      year: "Meeting"
+    }
+  ];
+
+  const pressImages = [
+    {
+      src: "/assets/pictures/presse/presse5.jpg",
+      alt: "Press event",
+      year: "Press"
+    },
+    {
+      src: "/assets/pictures/presse/presse6.jpg",
+      alt: "Press conference",
+      year: "Press"
+    },
+    {
+      src: "/assets/pictures/presse/presse7.jpg",
+      alt: "Media event",
+      year: "Press"
+    },
+    {
+      src: "/assets/pictures/presse/presse8.jpg",
+      alt: "Press meeting",
+      year: "Press"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-[#EDE9CE]">
       <Navbar />
@@ -166,6 +267,42 @@ const Pictures = () => {
           <h2 className="text-2xl font-serif mb-6">Als Dirigent</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {conductorImages.map((image, index) => (
+              <div key={index} className="relative group">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-64 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-lg">
+                  <p className="text-sm text-center">{image.year}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-serif mb-6">Wichtige Begegnungen</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {importantMeetingsImages.map((image, index) => (
+              <div key={index} className="relative group">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-64 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-lg">
+                  <p className="text-sm text-center">{image.year}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-serif mb-6">Presse</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {pressImages.map((image, index) => (
               <div key={index} className="relative group">
                 <img
                   src={image.src}
