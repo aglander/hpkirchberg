@@ -4,47 +4,47 @@ import Footer from "@/components/Footer";
 const Pictures = () => {
   const pianistImages = [
     {
-      src: "/lovable-uploads/928b20cd-0a9a-4055-b738-51aa91f21094.png",
+      src: "/assets/pictures/pianist/01.jpg",
       alt: "Young pianist at upright piano",
       year: "Early years"
     },
     {
-      src: "/lovable-uploads/3f8d07ec-fad8-42a2-bc74-43841bb43061.png",
+      src: "/assets/pictures/pianist/02.jpg",
       alt: "Pianist performing in formal attire",
       year: "Performance"
     },
     {
-      src: "/lovable-uploads/cffc458e-7d72-46ff-aef3-a8af2603456d.png",
+      src: "/assets/pictures/pianist/03.jpg",
       alt: "Pianist at grand piano",
       year: "Concert performance"
     },
     {
-      src: "/lovable-uploads/05105c57-55ef-4b36-9faf-5c0f6553e5ae.png",
+      src: "/assets/pictures/pianist/04.jpg",
       alt: "Piano performance in profile",
       year: "Live concert"
     },
     {
-      src: "/lovable-uploads/86d5ad8e-f5d7-4563-b588-0fdd39636afe.png",
+      src: "/assets/pictures/pianist/05.jpg",
       alt: "Performance at piano",
       year: "Concert evening"
     },
     {
-      src: "/lovable-uploads/f54ca29c-32fc-412b-96cc-748a0a2b3004.png",
+      src: "/assets/pictures/pianist/20.jpg",
       alt: "Piano performance",
       year: "Concert"
     },
     {
-      src: "/lovable-uploads/0c0c0c0c-0c0c-0c0c-0c0c-0c0c0c0c0c0c.png",
+      src: "/assets/pictures/pianist/24.jpg",
       alt: "Piano recital",
       year: "Recital"
     },
     {
-      src: "/lovable-uploads/1d1d1d1d-1d1d-1d1d-1d1d-1d1d1d1d1d1d.png",
+      src: "/assets/pictures/pianist/25.jpg",
       alt: "Concert performance",
       year: "Performance"
     },
     {
-      src: "/lovable-uploads/2e2e2e2e-2e2e-2e2e-2e2e-2e2e2e2e2e2e.png",
+      src: "/assets/pictures/pianist/35.jpg",
       alt: "Piano concert",
       year: "Concert"
     }
