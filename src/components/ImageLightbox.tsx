@@ -10,11 +10,11 @@ interface ImageLightboxProps {
 const ImageLightbox = ({ isOpen, onClose, imageSrc, imageAlt }: ImageLightboxProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-[90vw] max-h-[90vh] p-0">
+      <DialogContent className="p-0 w-fit mx-auto">
         <img
           src={imageSrc}
           alt={imageAlt}
-          className="w-auto h-auto max-w-full max-h-full object-contain"
+          className="w-auto h-auto max-w-[90vw] max-h-[90vh] object-contain"
         />
       </DialogContent>
     </Dialog>
