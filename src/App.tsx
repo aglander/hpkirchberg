@@ -9,7 +9,6 @@ import Music from "./pages/Music";
 import Links from "./pages/Links";
 import Contact from "./pages/Contact";
 import Pictures from "./pages/Pictures";
-import Privacy from "./pages/Privacy";
 
 const queryClient = new QueryClient();
 
@@ -26,7 +25,6 @@ const App = () => (
           <Route path="/musik" element={<Music />} />
           <Route path="/links" element={<Links />} />
           <Route path="/kontakt" element={<Contact />} />
-          <Route path="/datenschutz" element={<Privacy />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
