@@ -50,20 +50,23 @@ const Links = () => {
         
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {links.map((link, index) => (
-            <Card key={index} className="bg-white hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <h2 className="text-xl font-semibold mb-2">{link.title}</h2>
-                <p className="text-gray-600 mb-4">{link.description}</p>
-                <a
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
-                >
-                  Besuchen <ExternalLink className="ml-2 h-4 w-4" />
-                </a>
-              </CardContent>
-            </Card>
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block transition-transform hover:scale-[1.02]"
+            >
+              <Card className="h-full bg-white hover:shadow-lg transition-shadow">
+                <CardContent className="p-6">
+                  <h2 className="text-xl font-semibold mb-2">{link.title}</h2>
+                  <p className="text-gray-600 mb-4">{link.description}</p>
+                  <span className="inline-flex items-center text-primary hover:text-primary/80 transition-colors">
+                    Besuchen <ExternalLink className="ml-2 h-4 w-4" />
+                  </span>
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
 
