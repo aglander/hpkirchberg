@@ -30,7 +30,7 @@ const Music = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {albums?.map((album) => {
               console.log("Rendering album:", album.title, "with image:", album.coverImage);
-              return <AlbumCard key={album.id} album={album} />;
+              return <AlbumCard key={`${album.title}-${album.year}`} album={album} />;
             })}
           </div>
         </div>
