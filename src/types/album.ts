@@ -1,5 +1,4 @@
 export interface Album {
-  id: number;
   year: string;
   composer?: string;
   title: string;

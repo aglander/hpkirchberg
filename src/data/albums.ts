@@ -2,7 +2,6 @@ import { Album } from "@/types/album";
 
 export const albums: Album[] = [
     {
-        "id": 1,
         "year": "2015",
         "composer": "Zaufke & Lund",
         "title": "Grimm!",
@@ -14,7 +13,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/36.jpg"
     },
     {
-        "id": 2,
         "year": "2014",
         "composer": "Zaufke & Lund",
         "title": "Schwestern im Geiste",
@@ -26,7 +24,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/35.jpg"
     },
     {
-        "id": 3,
         "year": "2013",
         "composer": "Lund + Böhmer",
         "title": "Stimmen im Kopf",
@@ -38,7 +35,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/34.jpg"
     },
     {
-        "id": 4,
         "year": "2012",
         "composer": "",
         "title": "Das Tanz-Salon-Orchester \"Non Plus Ultra\"",
@@ -50,7 +46,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/33.jpg"
     },
     {
-        "id": 5,
         "year": "2011",
         "composer": "Zaufke und Lund",
         "title": "\"Mein Avatar und Ich\"",
@@ -62,7 +57,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/31.jpg"
     },
     {
-        "id": 6,
         "year": "2009",
         "composer": "Lund / Böhmer",
         "title": "\"Leben ohne Chris\"",
@@ -74,7 +68,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/30.jpg"
     },
     {
-        "id": 7,
         "year": "2007",
         "composer": "Lund / Zaufke",
         "title": "\"KAUF DIR EIN KIND\"",
@@ -86,7 +79,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/29.jpg"
     },
     {
-        "id": 8,
         "year": "2006",
         "composer": "Lund / Zaufke",
         "title": "\"HELD MÜLLER\"",
@@ -98,7 +90,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/28.jpg"
     },
     {
-        "id": 9,
         "year": "2005",
         "composer": "Hugo Wolf",
         "title": "\"MÖRIKE-LIEDER\"",
@@ -111,7 +102,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/27.jpg"
     },
     {
-        "id": 10,
         "year": "2005",
         "composer": "Lund / Zaufke",
         "title": "\"Letterland\"",
@@ -125,7 +115,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/26.jpg"
     },
     {
-        "id": 11,
         "year": "2004",
         "composer": "",
         "title": "... kommt jetzt der Schwan ?",
@@ -138,7 +127,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/22.jpg"
     },
     {
-        "id": 12,
         "year": "2004",
         "composer": "",
         "title": "Kirchenmusikal. Gottesdienst",
@@ -151,7 +139,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/20.jpg"
     },
     {
-        "id": 13,
         "year": "2004",
         "composer": "Lund / Ramdohr",
         "title": "Die traurige Ballade von John Merrick, genannt: Der Elefantenmensch",
@@ -163,7 +150,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/23.jpg"
     },
     {
-        "id": 14,
         "year": "2003",
         "composer": "Lund / Zaufke",
         "title": "Elternabend-Das Musical",
@@ -176,7 +162,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/18.jpg"
     },
     {
-        "id": 15,
         "year": "2003",
         "composer": "",
         "title": "Christmas Meditation",
@@ -187,7 +172,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/17.jpg"
     },
     {
-        "id": 16,
         "year": "2002",
         "composer": "Musik in Deutschland",
         "title": "Operette & Musical vol. 2",
@@ -200,7 +184,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/25.jpg"
     },
     {
-        "id": 17,
         "year": "2002",
         "composer": "Musik in Deutschland",
         "title": "Operette & Musical vol. 1",
@@ -213,7 +196,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/19.jpg"
     },
     {
-        "id": 18,
         "year": "2002",
         "composer": "Böhmer, Radeke, Ramdohr, Zaufke",
         "title": "25 Jahre Neuköllner Oper",
@@ -225,7 +207,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/15.jpg"
     },
     {
-        "id": 19,
         "year": "2002",
         "composer": "Schwemmer",
         "title": "Angela – Eine Nationaloper",
@@ -237,7 +218,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/14.jpg"
     },
     {
-        "id": 20,
         "year": "2002",
         "composer": "Sondheim",
         "title": "Assassins-Attentäter",
@@ -249,7 +229,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/13.jpg"
     },
     {
-        "id": 21,
         "year": "2001",
         "composer": "Lund/Zaufke",
         "title": "Cinderella passt was nicht",
@@ -262,7 +241,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/12.jpg"
     },
     {
-        "id": 22,
         "year": "2001",
         "composer": "Lund/Böhmer",
         "title": "Love Bite – Biss ins Herz",
@@ -274,7 +252,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/11.jpg"
     },
     {
-        "id": 23,
         "year": "2000",
         "composer": "Benda, J.Chr.Bach, Stamitz, Gossec, Weber",
         "title": "Märsche & Bläsermusik",
@@ -286,7 +263,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/16.jpg"
     },
     {
-        "id": 24,
         "year": "2000",
         "composer": "Schubert",
         "title": "Die Winterreise",
@@ -298,7 +274,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/10.jpg"
     },
     {
-        "id": 25,
         "year": "2000",
         "composer": "",
         "title": "Dirigent Hans-Peter Kirchberg",
@@ -309,7 +284,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/09.jpg"
     },
     {
-        "id": 26,
         "year": "2000",
         "composer": "Bürkholz",
         "title": "Rheinsberger Maskerade",
@@ -321,7 +295,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/08.jpg"
     },
     {
-        "id": 27,
         "year": "1999",
         "composer": "Lund/Böhmer",
         "title": "Das Wunder von Neukölln",
@@ -333,7 +306,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/07.jpg"
     },
     {
-        "id": 28,
         "year": "1998",
         "composer": "Brecht/Eisler",
         "title": "Die Mutter (Urfassung)",
@@ -346,7 +318,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/06.jpg"
     },
     {
-        "id": 29,
         "year": "1998",
         "composer": "Natschinski (arr.Schwemmer)",
         "title": "Gisela",
@@ -359,7 +330,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/05.jpg"
     },
     {
-        "id": 30,
         "year": "1996",
         "composer": "Paul Lincke",
         "title": "Folies Bergère",
@@ -372,7 +342,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/04.jpg"
     },
     {
-        "id": 31,
         "year": "1995",
         "composer": "Korngold",
         "title": "Between Two Worlds",
@@ -385,7 +354,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/03.jpg"
     },
     {
-        "id": 32,
         "year": "1993",
         "composer": "Händel",
         "title": "Ezio",
@@ -398,7 +366,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/02.jpg"
     },
     {
-        "id": 33,
         "year": "1992",
         "composer": "Manfredini, Corelli, Händel, Locatelli",
         "title": "Weihnachtskonzerte",
@@ -411,7 +378,6 @@ export const albums: Album[] = [
         "coverImage": "/assets/albums/01.jpg"
     },
     {
-        "id": 34,
         "year": "1990",
         "composer": "Prokofjew",
         "title": "Romeo und Julia",
