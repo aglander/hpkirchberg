@@ -68,14 +68,33 @@ const Biography = () => {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-serif mb-4">Bedeutende Projekte & Auszeichnungen</h2>
+              <h2 className="text-2xl font-serif mb-4">Bedeutende Projekte, Uraufführungen & Auszeichnungen</h2>
               <ul className="list-disc pl-6 space-y-2">
+                <li>1996: "Messeschlager Gisela"</li>
+                <li>1997: "Die Legende vom Krabat" (Teil 1+2)</li>
+                <li>1998: "The Boys of Syracuse" und "Das Wunder von Neukölln"</li>
+                <li>2001: "Cinderella passt was nicht"</li>
+                <li>2002: "Assassins – Attentäter" und erste Oper über Angela Merkel</li>
+                <li>2003: "Elternabend"</li>
+                <li>2004: "Der Elefantenmensch" und "Friendly Fire"</li>
+                <li>2005: "Macbeth" und Europäische Erstaufführung der SHOMYO SYMPHONIE II von Maki Ishii</li>
+                <li>2006: "Held Müller"</li>
+                <li>2007: "Kauf dir ein Kind" und "Weintraubs Jazz Odyssee"</li>
+                <li>2008: "Türkisch für Liebhaber" und Dirigent der Gala zum 80. Geburtstag von Gerd Natschinski</li>
+                <li>2009: "Leben ohne Chris", "Fanny und Schraube", "Der Fall Rigoletto – Ein Vatikan-Krimi"</li>
+                <li>2009: Preisträger "Silbernes Blatt" der Dramatiker Union</li>
+                <li>2010: "Tango Türk" und "Mein Avatar und ich"</li>
+                <li>2012: "Yasou Aida" (nach Verdi "Aida") und "Berlinerleben"</li>
+                <li>2013: "Stimmen im Kopf" und "AiRossini" (nach Verdi "Il viaggio a Reims")</li>
+                <li>2014: "Schwestern im Geiste" und "Bazaar Cassandra"</li>
+                <li>2015: "Die Akte Carmen" (nach Bizet "Carmen") und "Grimm"</li>
+                <li>2016: "Iris Butterfly" (nach Mascagni "Iris")</li>
+                <li>2016: "Stella – Das blonde Gespenst vom Kurfürstendamm" (Preise der Deutschen Musical-Akademie in 6 Kategorien, u. a. "Bestes Musical")</li>
+                <li>2017: "Kopfkino – Das Filmmusical" (in Kooperation mit der Filmhochschule Babelsberg auch als preisgekrönte Verfilmung)</li>
+                <li>2018: "Welcome to Hell – Das Musical zum Krawall-Gipfel in Hamburg"</li>
+                <li>2019: "Drachenherz" (nach der Nibelungen-Sage) – UA am Opernhaus Chemnitz in Kooperation mit der Neuköllner Oper Berlin</li>
+                <li>2021: "Eine Stimme für Deutschland – Die musikalische Quittung"</li>
                 <li>Uraufführungen preisgekrönter Opern: "Der Wurm", "Alice", "Hundeherz", "Münchhausen", "Wischen – No Vision", "Der Sonderermittler"</li>
-                <li>Dirigent der ersten Oper über Angela Merkel (2002)</li>
-                <li>Europäische Erstaufführung der SHOMYO SYMPHONIE II von Maki Ishii (2005)</li>
-                <li>Dirigent der Gala zum 80. Geburtstag von Gerd Natschinski (2008)</li>
-                <li>Preisträger "Silbernes Blatt" der Dramatiker Union (2009)</li>
-                <li>Ensemble-Preisträger der Deutschen Musical-Akademie (2016) - "Bestes Musical" für "Stella – Das blonde Gespenst vom Kurfürstendamm"</li>
               </ul>
             </section>
           </div>
