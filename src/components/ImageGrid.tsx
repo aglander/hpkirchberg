@@ -22,7 +22,7 @@ const ImageGrid = ({ images, title }: ImageGridProps) => {
           >
             <img
               src={image.src}
-              alt={image.alt}
+              alt={`Historical photograph from ${title} section${image.year ? ` - ${image.year}` : ''}`}
               className="w-full h-64 object-cover object-top rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105"
             />
             {image.year && (
@@ -39,7 +39,7 @@ const ImageGrid = ({ images, title }: ImageGridProps) => {
           isOpen={!!selectedImage}
           onClose={() => setSelectedImage(null)}
           imageSrc={selectedImage.src}
-          imageAlt={selectedImage.alt}
+          imageAlt={`Historical photograph from ${title} section${selectedImage.year ? ` - ${selectedImage.year}` : ''}`}
         />
       )}
     </section>
