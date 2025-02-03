@@ -7,28 +7,13 @@ const Links = () => {
   const links = [
     {
       title: "Neuköllner Oper",
-      description: "Das 'Vierte Opernhaus Berlins', kreativstes Musiktheater von Barock bis Musical, dessen musikalischer Chef ich bin...",
+      description: "Das 'Vierte Opernhaus Berlins', dem innovativsten Musiktheater von Barock bis Musical, dessen musikalischer Chef ich 1992-2022 war...",
       url: "https://www.neukoellneroper.de"
-    },
-    {
-      title: "Chorwerkstatt Berlin",
-      description: "Er hatte 1977 die Idee, dieses Opernhaus zu gründen – Einer der bewundernswertesten Musiker, die ich kenne...",
-      url: "https://www.chorwerkstatt-berlin.de/48radeke.htm"
-    },
-    {
-      title: "Theater 89",
-      description: "Das innovativste Sprechtheater der Hauptstadt...",
-      url: "https://www.theater89.de"
     },
     {
       title: "Der Mensch ist gut",
       description: "Der Mensch ist wirklich gut! Mein Neffe Johannes Kirchberg...",
       url: "https://www.dermenschistgut.de"
-    },
-    {
-      title: "Hochschule für Musik Berlin",
-      description: "Viele Studenten werden dort auch von mir unterrichtet...",
-      url: "https://www.hfm-berlin.de"
     },
     {
       title: "Frithjof Martin Grabner",
@@ -39,11 +24,6 @@ const Links = () => {
       title: "Ballettschule Balance",
       description: "Bester Ballett-Unterricht für jede Altersklasse...",
       url: "https://www.ballettschule-balance.de"
-    },
-    {
-      title: "Masur Klavier",
-      description: "Sohn eines berühmten Vaters: Mein geliebter 'Steinway' wird von ihm bestens betreut...",
-      url: "https://www.masur-klavier.de"
     },
     {
       title: "Matthias Weichert",
