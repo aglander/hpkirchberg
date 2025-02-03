@@ -132,7 +132,7 @@ export const albums: Album[] = [
         "title": "Berliner Salon",
         "performers": [
             "Das BerlinerSalonOrchester und Winnie Böwe (Gesang) musizieren Werke von Benatzky, Lincke, Lortzing, Rubinstein u.a.",
-            "uMusik. Leitung / Klavier: H.-Peter Kirchberg, live-Mitschnitt aus der Berliner Philharmonie"
+            "Musik. Leitung / Klavier: H.-Peter Kirchberg, live-Mitschnitt aus der Berliner Philharmonie"
         ],
         "orderInfo": "",
         "coverImage": "/assets/albums/21.jpg"
