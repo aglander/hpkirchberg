@@ -129,6 +129,17 @@ export const albums: Album[] = [
     {
         "year": "2004",
         "composer": "",
+        "title": "Berliner Salon",
+        "performers": [
+            "Das BerlinerSalonOrchester und Winnie Böwe (Gesang) musizieren Werke von Benatzky, Lincke, Lortzing, Rubinstein u.a.",
+            "uMusik. Leitung / Klavier: H.-Peter Kirchberg, live-Mitschnitt aus der Berliner Philharmonie"
+        ],
+        "orderInfo": "",
+        "coverImage": "/assets/albums/21.jpg"
+    },
+    {
+        "year": "2004",
+        "composer": "",
         "title": "Kirchenmusikal. Gottesdienst",
         "performers": [
             "H.-Peter Kirchberg spielt Werke von J.S.Bach",
