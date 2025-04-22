@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 const ConcertAnnouncement = () => {
   return (
     <section className="max-w-4xl mx-auto px-6 py-12">
-      <Card className="bg-white/80 rounded-lg shadow-lg p-8">
+      <Card className="bg-white/80 rounded-lg shadow-lg p-8 border-none">
         <div className="grid md:grid-cols-2 gap-6">
           <div>
             <CardHeader className="p-0">
