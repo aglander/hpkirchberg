@@ -4,10 +4,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 const ConcertAnnouncement = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <Card className="overflow-hidden bg-white/80">
+    <section className="max-w-4xl mx-auto px-6 py-12">
+      <Card className="bg-white/80 rounded-lg shadow-lg p-8">
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="p-6">
+          <div>
             <CardHeader className="p-0">
               <div className="flex items-center gap-2 text-xl font-serif mb-4">
                 <Calendar className="h-6 w-6" />
@@ -39,11 +39,11 @@ const ConcertAnnouncement = () => {
               </p>
             </CardContent>
           </div>
-          <div className="relative h-full min-h-[300px] md:min-h-0">
+          <div className="relative h-full min-h-[200px] md:min-h-0">
             <img 
               src="/lovable-uploads/6c5f3c29-51f9-448f-83fc-26ee25e217d8.png" 
               alt="Maurice Ravel im Pop-Art Stil" 
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover rounded-lg"
             />
           </div>
         </div>
