@@ -39,12 +39,21 @@ const ConcertAnnouncement = () => {
               </p>
             </CardContent>
           </div>
-          <div className="relative h-full min-h-[200px] md:min-h-0">
-            <img 
-              src="/lovable-uploads/6c5f3c29-51f9-448f-83fc-26ee25e217d8.png" 
-              alt="Maurice Ravel im Pop-Art Stil" 
-              className="absolute inset-0 w-full h-full object-cover rounded-lg"
-            />
+          <div className="flex flex-col gap-6">
+            <div className="relative h-[300px]">
+              <img 
+                src="/lovable-uploads/6c5f3c29-51f9-448f-83fc-26ee25e217d8.png" 
+                alt="Maurice Ravel im Pop-Art Stil" 
+                className="absolute inset-0 w-full h-full object-cover rounded-lg"
+              />
+            </div>
+            <div className="relative h-[300px]">
+              <img 
+                src="/lovable-uploads/90343c91-5468-470e-b9c1-ac64d4384f90.png" 
+                alt="Max Reger im Pop-Art Stil" 
+                className="absolute inset-0 w-full h-full object-cover rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </Card>
