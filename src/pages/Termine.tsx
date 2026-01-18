@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { format, parseISO, isToday, isFuture } from "date-fns";
-import { de } from "date-fns/locale";
+import { parseISO } from "date-fns";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, MapPin } from "lucide-react";
@@ -24,21 +23,75 @@ interface CalendarData {
 const Termine = () => {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
   const [loading, setLoading] = useState(true);
+  const timeZone = "Europe/Berlin";
+
+  const getBerlinTimestamp = (date: Date) => {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h23",
+    }).formatToParts(date);
+
+    const lookup = Object.fromEntries(
+      parts
+        .filter((part) => part.type !== "literal")
+        .map((part) => [part.type, part.value]),
+    );
+
+    return Date.UTC(
+      Number(lookup.year),
+      Number(lookup.month) - 1,
+      Number(lookup.day),
+      Number(lookup.hour),
+      Number(lookup.minute),
+      Number(lookup.second),
+    );
+  };
+
+  const getBerlinDayKey = (date: Date) => {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).formatToParts(date);
+
+    const lookup = Object.fromEntries(
+      parts
+        .filter((part) => part.type !== "literal")
+        .map((part) => [part.type, part.value]),
+    );
+
+    return `${lookup.year}-${lookup.month}-${lookup.day}`;
+  };
 
   useEffect(() => {
     fetch("/calendar.json")
       .then((res) => res.json())
       .then((data: CalendarData) => {
         const now = new Date();
+        const nowTimestamp = getBerlinTimestamp(now);
+        const nowDay = getBerlinDayKey(now);
         const filteredEvents = data.events
           .filter((event) => {
             // Nur Events mit Titel anzeigen
             if (!event.title || event.title.trim() === "") return false;
             // Nur heute und zukünftige Events
             const eventDate = parseISO(event.start);
-            return isToday(eventDate) || isFuture(eventDate);
+            const eventTimestamp = getBerlinTimestamp(eventDate);
+            const eventDay = getBerlinDayKey(eventDate);
+            return eventDay === nowDay || eventTimestamp >= nowTimestamp;
           })
-          .sort((a, b) => parseISO(a.start).getTime() - parseISO(b.start).getTime());
+          .sort(
+            (a, b) =>
+              getBerlinTimestamp(parseISO(a.start)) -
+              getBerlinTimestamp(parseISO(b.start)),
+          );
         
         setEvents(filteredEvents);
         setLoading(false);
@@ -56,12 +109,32 @@ const Termine = () => {
 
   const formatDate = (dateString: string) => {
     const date = parseISO(dateString);
-    return format(date, "EEEE, d. MMMM yyyy", { locale: de });
+    const formatter = new Intl.DateTimeFormat("de-DE", {
+      timeZone,
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+    const parts = formatter.formatToParts(date);
+    const lookup = Object.fromEntries(
+      parts
+        .filter((part) => part.type !== "literal")
+        .map((part) => [part.type, part.value]),
+    );
+    return `${lookup.weekday}, ${lookup.day}. ${lookup.month} ${lookup.year}`;
   };
 
   const formatTime = (dateString: string) => {
     const date = parseISO(dateString);
-    return format(date, "HH:mm", { locale: de }) + " Uhr";
+    return (
+      new Intl.DateTimeFormat("de-DE", {
+        timeZone,
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23",
+      }).format(date) + " Uhr"
+    );
   };
 
   return (
