@@ -53,6 +53,22 @@ const Termine = () => {
     );
   };
 
+  const parseCalendarDate = (dateString: string) => {
+    const parsed = parseISO(dateString);
+    const wallClockTimestamp = Date.UTC(
+      parsed.getUTCFullYear(),
+      parsed.getUTCMonth(),
+      parsed.getUTCDate(),
+      parsed.getUTCHours(),
+      parsed.getUTCMinutes(),
+      parsed.getUTCSeconds(),
+      parsed.getUTCMilliseconds(),
+    );
+    const offset =
+      getBerlinTimestamp(new Date(wallClockTimestamp)) - wallClockTimestamp;
+    return new Date(wallClockTimestamp - offset);
+  };
+
   const getBerlinDayKey = (date: Date) => {
     const parts = new Intl.DateTimeFormat("en-CA", {
       timeZone,
@@ -82,15 +98,15 @@ const Termine = () => {
             // Nur Events mit Titel anzeigen
             if (!event.title || event.title.trim() === "") return false;
             // Nur heute und zukünftige Events
-            const eventDate = parseISO(event.start);
+            const eventDate = parseCalendarDate(event.start);
             const eventTimestamp = getBerlinTimestamp(eventDate);
             const eventDay = getBerlinDayKey(eventDate);
             return eventDay === nowDay || eventTimestamp >= nowTimestamp;
           })
           .sort(
             (a, b) =>
-              getBerlinTimestamp(parseISO(a.start)) -
-              getBerlinTimestamp(parseISO(b.start)),
+              getBerlinTimestamp(parseCalendarDate(a.start)) -
+              getBerlinTimestamp(parseCalendarDate(b.start)),
           );
         
         setEvents(filteredEvents);
@@ -108,7 +124,7 @@ const Termine = () => {
   };
 
   const formatDate = (dateString: string) => {
-    const date = parseISO(dateString);
+    const date = parseCalendarDate(dateString);
     const formatter = new Intl.DateTimeFormat("de-DE", {
       timeZone,
       weekday: "long",
@@ -126,7 +142,7 @@ const Termine = () => {
   };
 
   const formatTime = (dateString: string) => {
-    const date = parseISO(dateString);
+    const date = parseCalendarDate(dateString);
     return (
       new Intl.DateTimeFormat("de-DE", {
         timeZone,
