@@ -9,7 +9,7 @@ import Music from "./pages/Music";
 import Links from "./pages/Links";
 import Contact from "./pages/Contact";
 import Pictures from "./pages/Pictures";
-
+import Termine from "./pages/Termine";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -20,6 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/termine" element={<Termine />} />
           <Route path="/biographie" element={<Biography />} />
           <Route path="/bilder" element={<Pictures />} />
           <Route path="/musik" element={<Music />} />
