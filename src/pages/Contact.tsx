@@ -10,7 +10,7 @@ const Contact = () => {
     city: "D-15566 Schöneiche bei Berlin",
     phone: "+49 30 643 89 560",
     mobile: "+49 177 21 767 56",
-    email: "hans-peterkirchberg@web.de",
+    email: "hans-peterkirchberg@gmx.de",
     website: "www.hpkirchberg.de",
   };
 
