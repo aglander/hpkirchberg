@@ -1,25 +1,7 @@
 {
-  "updatedAt": "2026-01-18T09:23:46.174Z",
-  "count": 12,
+  "updatedAt": "2026-01-19T04:12:54.241Z",
+  "count": 10,
   "events": [
-    {
-      "uid": "A43EBE30-D6AD-495D-8013-68ACBE3A95FC",
-      "title": "Gottesdienst 2. So.n.Epiph. 10:40 Uhr\\, Theresien-Heim\\, Pfrn.i.R. Lütke ",
-      "description": "",
-      "location": "",
-      "start": "2026-01-18T10:40:00.000Z",
-      "end": "2026-01-18T11:40:00.000Z",
-      "allDay": false
-    },
-    {
-      "uid": "A6A3B6F1-9A33-4967-924E-C76E216A3A18",
-      "title": "Test Website ",
-      "description": "",
-      "location": "",
-      "start": "2026-01-18T12:00:00.000Z",
-      "end": "2026-01-18T13:00:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "E9169B4F-22CB-4EB5-9CA1-9BE43C710639",
       "title": "Senioren Andacht und Singen\\, 15:00 Uhr\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
