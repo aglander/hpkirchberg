@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-03-01T04:55:42.566Z",
-  "count": 5,
+  "updatedAt": "2026-03-02T04:49:31.132Z",
+  "count": 4,
   "events": [
-    {
-      "uid": "D42E8E60-EDB6-4603-AAB4-3DD886D69180",
-      "title": "Gottesdienst \"Reminiszere\"\\, Kapelle Fichtenau\\, Lektor Johannes Kirchner",
-      "description": "",
-      "location": "",
-      "start": "2026-03-01T10:00:00.000Z",
-      "end": "2026-03-01T11:15:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "67B49EE7-3785-4815-9ECC-E9B311C2B5CB",
       "title": "Gottesdienst \"Lätare\"\\, Kapelle Fichtenau\\, Pfrn. Steffi Jawer ",
