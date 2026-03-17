@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-16T05:17:53.257Z",
-  "count": 3,
+  "updatedAt": "2026-03-17T04:53:17.546Z",
+  "count": 8,
   "events": [
     {
       "uid": "3BAC2767-2D90-4D7F-9051-2BA430B0A28F",
@@ -22,11 +22,56 @@
     },
     {
       "uid": "6F95A5F6-7C14-4BDE-BEAF-5B98E6B2DF96",
-      "title": "Gottesdienst mA \"Invocavit\"\\, Kapelle Fichtenau\\, Pfrn. Steffi Jawer",
+      "title": "OrgelDienst \"Palmarum\"\\, TheresienHeim",
       "description": "",
       "location": "",
-      "start": "2026-03-29T10:00:00.000Z",
-      "end": "2026-03-29T11:30:00.000Z",
+      "start": "2026-03-29T10:40:00.000Z",
+      "end": "2026-03-29T12:10:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "3BD8981D-C4C2-4769-A2EA-D8FF13E8B0BC",
+      "title": "OrgelDienst mA \"Karfreitag\"\\, Kapelle Fichtenau",
+      "description": "",
+      "location": "",
+      "start": "2026-04-03T10:00:00.000Z",
+      "end": "2026-04-03T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "275830F0-AE31-4699-8E0D-E312E769734F",
+      "title": "OrgelDienst \"Oster-Sonntag\"\\, Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-04-05T10:00:00.000Z",
+      "end": "2026-04-05T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "8A2D9EC1-0AE6-4333-A8FE-5A0E6392B45A",
+      "title": "OrgelDienst \"Oster-Montag\"\\, Dorfkirche Münchehofe",
+      "description": "",
+      "location": "",
+      "start": "2026-04-06T10:00:00.000Z",
+      "end": "2026-04-06T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "293AE398-7D6E-4992-B5A8-9D992260C259",
+      "title": "Senioren Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
+      "description": "",
+      "location": "",
+      "start": "2026-04-15T15:00:00.000Z",
+      "end": "2026-04-15T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "8866C3B5-F4FC-4163-95A6-4C024D9AE78F",
+      "title": "Klavier-Recital \"alles in cis-moll\"",
+      "description": "",
+      "location": "ehem. Schlosskirche Schöneiche\\nDorfstraße 38\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
+      "start": "2026-04-25T17:00:00.000Z",
+      "end": "2026-04-25T18:00:00.000Z",
       "allDay": false
     }
   ]
