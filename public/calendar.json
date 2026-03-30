@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-03-29T05:12:23.206Z",
-  "count": 6,
+  "updatedAt": "2026-03-30T05:27:06.049Z",
+  "count": 5,
   "events": [
-    {
-      "uid": "6F95A5F6-7C14-4BDE-BEAF-5B98E6B2DF96",
-      "title": "OrgelDienst \"Palmarum\"\\, TheresienHeim",
-      "description": "",
-      "location": "",
-      "start": "2026-03-29T10:40:00.000Z",
-      "end": "2026-03-29T12:10:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "3BD8981D-C4C2-4769-A2EA-D8FF13E8B0BC",
       "title": "OrgelDienst mA \"Karfreitag\"\\, Kapelle Fichtenau",
