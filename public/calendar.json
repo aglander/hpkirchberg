@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-04-03T05:06:27.561Z",
-  "count": 5,
+  "updatedAt": "2026-04-04T04:51:44.054Z",
+  "count": 4,
   "events": [
-    {
-      "uid": "3BD8981D-C4C2-4769-A2EA-D8FF13E8B0BC",
-      "title": "OrgelDienst mA \"Karfreitag\"\\, Kapelle Fichtenau",
-      "description": "",
-      "location": "",
-      "start": "2026-04-03T10:00:00.000Z",
-      "end": "2026-04-03T11:30:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "275830F0-AE31-4699-8E0D-E312E769734F",
       "title": "OrgelDienst \"Oster-Sonntag\"\\, Dorfkirche Schöneiche",
