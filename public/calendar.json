@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-07T05:11:09.179Z",
-  "count": 2,
+  "updatedAt": "2026-04-08T05:12:40.904Z",
+  "count": 3,
   "events": [
     {
       "uid": "293AE398-7D6E-4992-B5A8-9D992260C259",
@@ -9,6 +9,15 @@
       "location": "",
       "start": "2026-04-15T15:00:00.000Z",
       "end": "2026-04-15T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "282CBD5A-FC91-4322-9CA0-7F9A09F0381C",
+      "title": "Soundcheck und GP fireAbend ",
+      "description": "",
+      "location": "GemHaus Tabor",
+      "start": "2026-04-17T17:30:00.000Z",
+      "end": "2026-04-17T19:15:00.000Z",
       "allDay": false
     },
     {
