@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-04-08T05:12:40.904Z",
-  "count": 3,
+  "updatedAt": "2026-04-09T05:11:16.794Z",
+  "count": 9,
   "events": [
+    {
+      "uid": "AD5FC7A5-7B84-4ECD-82B6-F86CDAFC88C0",
+      "title": "",
+      "description": "",
+      "location": "",
+      "start": "2026-04-12T00:00:00.000Z",
+      "end": "2026-04-13T00:00:00.000Z",
+      "allDay": true
+    },
     {
       "uid": "293AE398-7D6E-4992-B5A8-9D992260C259",
       "title": "Senioren Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
@@ -12,12 +21,21 @@
       "allDay": false
     },
     {
-      "uid": "282CBD5A-FC91-4322-9CA0-7F9A09F0381C",
-      "title": "Soundcheck und GP fireAbend ",
+      "uid": "1B25B8FA-8A07-4E0E-B13B-6E26E4408126",
+      "title": "Musikalische Ausgestaltung \"fireabend\"\\, Gemendehaus Bln-Wilhelmshagen\\, Eichbergstr.18",
       "description": "",
-      "location": "GemHaus Tabor",
-      "start": "2026-04-17T17:30:00.000Z",
-      "end": "2026-04-17T19:15:00.000Z",
+      "location": "",
+      "start": "2026-04-17T19:30:00.000Z",
+      "end": "2026-04-17T22:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "634D110D-2234-4064-B1E1-2F0D384C942C",
+      "title": "\"Vielfalt der Klangfarben\" - Orgelmusik in der \"offenen Dorfkirche\" Schöneiche - Präsentation der neuen digitalen Sakral-Orgel",
+      "description": "",
+      "location": "",
+      "start": "2026-04-25T15:15:00.000Z",
+      "end": "2026-04-25T16:00:00.000Z",
       "allDay": false
     },
     {
@@ -27,6 +45,42 @@
       "location": "ehem. Schlosskirche Schöneiche\\nDorfstraße 38\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
       "start": "2026-04-25T17:00:00.000Z",
       "end": "2026-04-25T18:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "14B42D17-952A-4F03-AF17-DB8538B70C03",
+      "title": "Senioren Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
+      "description": "",
+      "location": "",
+      "start": "2026-05-20T15:00:00.000Z",
+      "end": "2026-05-20T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "98CC5F16-F46A-419F-82AB-86C7736077E6",
+      "title": "OrgelDienst mA \"Pfingst-Sonntag\" -Konfirmation-\\, Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-05-24T14:00:00.000Z",
+      "end": "2026-05-24T16:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "7ACB94A9-BE32-428B-8A10-FBFBAB019C26",
+      "title": "OrgelDienst \"Pfingst-Montag\"\\, Dorfkirche Münchehofe",
+      "description": "",
+      "location": "",
+      "start": "2026-05-25T10:00:00.000Z",
+      "end": "2026-05-25T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "5384551D-EA12-4E65-B624-9B2EDED78D2B",
+      "title": "OrgelDienst \"Trinitatis\"\\, Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-05-31T10:00:00.000Z",
+      "end": "2026-05-31T11:30:00.000Z",
       "allDay": false
     }
   ]
