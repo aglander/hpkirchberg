@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-19T05:31:04.070Z",
-  "count": 6,
+  "updatedAt": "2026-04-20T05:43:50.394Z",
+  "count": 7,
   "events": [
     {
       "uid": "634D110D-2234-4064-B1E1-2F0D384C942C",
@@ -18,6 +18,15 @@
       "location": "ehem. Schlosskirche Schöneiche\\nDorfstraße 38\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
       "start": "2026-04-25T17:00:00.000Z",
       "end": "2026-04-25T18:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "9EBCA43F-6F08-43A5-84A9-62E1408CDA6D",
+      "title": "Muttertagskonzert\\, Theater Brandenburg/Havel\\, 16:00 Uhr",
+      "description": "",
+      "location": "",
+      "start": "2026-05-10T16:00:00.000Z",
+      "end": "2026-05-10T17:00:00.000Z",
       "allDay": false
     },
     {
