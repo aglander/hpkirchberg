@@ -1,25 +1,7 @@
 {
-  "updatedAt": "2026-04-25T05:13:23.069Z",
-  "count": 7,
+  "updatedAt": "2026-04-26T05:42:06.839Z",
+  "count": 5,
   "events": [
-    {
-      "uid": "634D110D-2234-4064-B1E1-2F0D384C942C",
-      "title": "\"Vielfalt der Klangfarben\" - Orgelmusik in der \"offenen Dorfkirche\" Schöneiche - Präsentation der neuen digitalen Sakral-Orgel",
-      "description": "",
-      "location": "",
-      "start": "2026-04-25T15:15:00.000Z",
-      "end": "2026-04-25T16:00:00.000Z",
-      "allDay": false
-    },
-    {
-      "uid": "8866C3B5-F4FC-4163-95A6-4C024D9AE78F",
-      "title": "Klavier-Recital \"alles in cis-moll\"",
-      "description": "",
-      "location": "ehem. Schlosskirche Schöneiche\\nDorfstraße 38\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
-      "start": "2026-04-25T17:00:00.000Z",
-      "end": "2026-04-25T18:00:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "9EBCA43F-6F08-43A5-84A9-62E1408CDA6D",
       "title": "Muttertagskonzert\\, Theater Brandenburg/Havel\\, 16:00 Uhr",
