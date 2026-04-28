@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-04-27T05:56:49.060Z",
-  "count": 5,
+  "updatedAt": "2026-04-28T06:08:35.391Z",
+  "count": 8,
   "events": [
+    {
+      "uid": "DD8F867A-9A71-4A53-BD99-54FDAD33F22A",
+      "title": "HP Orgeln - SpendenDankkonzert Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-05-02T16:00:00.000Z",
+      "end": "2026-05-02T17:30:00.000Z",
+      "allDay": false
+    },
     {
       "uid": "9EBCA43F-6F08-43A5-84A9-62E1408CDA6D",
       "title": "Muttertagskonzert\\, Theater Brandenburg/Havel\\, 16:00 Uhr",
@@ -12,12 +21,30 @@
       "allDay": false
     },
     {
+      "uid": "45FAEC41-4E66-42CA-834B-186926A7FA7A",
+      "title": "GD Himmelfahrt Theresienheim Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-05-14T10:40:00.000Z",
+      "end": "2026-05-14T12:00:00.000Z",
+      "allDay": false
+    },
+    {
       "uid": "14B42D17-952A-4F03-AF17-DB8538B70C03",
       "title": "Senioren Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
       "description": "",
       "location": "",
       "start": "2026-05-20T15:00:00.000Z",
       "end": "2026-05-20T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "3F75693B-F845-4CE0-AEC3-1AC19EA45EB6",
+      "title": "Orgelmusik in der \"Offenen Dorfkirche\" Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-05-23T16:00:00.000Z",
+      "end": "2026-05-23T17:00:00.000Z",
       "allDay": false
     },
     {
