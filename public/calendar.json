@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-07T06:12:19.011Z",
-  "count": 7,
+  "updatedAt": "2026-05-08T05:31:02.835Z",
+  "count": 8,
   "events": [
     {
       "uid": "9EBCA43F-6F08-43A5-84A9-62E1408CDA6D",
@@ -63,6 +63,15 @@
       "location": "",
       "start": "2026-05-31T10:00:00.000Z",
       "end": "2026-05-31T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "41E08DB4-C6A9-471E-B427-CF45460B2033",
+      "title": "Senioren Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
+      "description": "",
+      "location": "",
+      "start": "2026-09-16T15:00:00.000Z",
+      "end": "2026-09-16T17:00:00.000Z",
       "allDay": false
     }
   ]
