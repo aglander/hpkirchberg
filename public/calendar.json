@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-11T06:40:37.278Z",
-  "count": 7,
+  "updatedAt": "2026-05-12T06:15:51.911Z",
+  "count": 11,
   "events": [
     {
       "uid": "45FAEC41-4E66-42CA-834B-186926A7FA7A",
@@ -54,6 +54,42 @@
       "location": "",
       "start": "2026-05-31T10:00:00.000Z",
       "end": "2026-05-31T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "FE381EE3-0A42-4E73-9F90-5E11F3EE85D8",
+      "title": "OrgelDienst OpenAir zum Heimatfest Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-06-28T10:00:00.000Z",
+      "end": "2026-06-28T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "C99EF527-2838-49F2-8F78-5007AA375DB7",
+      "title": "Konzert für 2 Violinen und Orgel\\, \"Offene Dorfkirche\" Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-06-28T16:00:00.000Z",
+      "end": "2026-06-28T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "8BE69B39-4BDE-4703-A171-83CA8F40275A",
+      "title": "\"Der Kaiser von Atlantis\"\\, musikalische Präsentation der Faksimile-Ausgabe des Komponisten Viktor Ullmann\\, Neuköllner Oper Berlin",
+      "description": "",
+      "location": "",
+      "start": "2026-07-01T20:00:00.000Z",
+      "end": "2026-07-01T22:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "1AE51C40-2200-4FA8-AF87-7887C66D02A5",
+      "title": "OrgelDienst \"3.n.Trinitatis\"\\, Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-07-26T10:00:00.000Z",
+      "end": "2026-07-26T11:30:00.000Z",
       "allDay": false
     },
     {
