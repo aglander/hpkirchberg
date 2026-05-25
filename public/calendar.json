@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-05-24T06:38:27.150Z",
-  "count": 8,
+  "updatedAt": "2026-05-25T07:16:20.853Z",
+  "count": 7,
   "events": [
-    {
-      "uid": "98CC5F16-F46A-419F-82AB-86C7736077E6",
-      "title": "OrgelDienst mA \"Pfingst-Sonntag\" -Konfirmation-\\, Dorfkirche Schöneiche",
-      "description": "",
-      "location": "",
-      "start": "2026-05-24T14:00:00.000Z",
-      "end": "2026-05-24T16:00:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "7ACB94A9-BE32-428B-8A10-FBFBAB019C26",
       "title": "OrgelDienst \"Pfingst-Montag\"\\, Dorfkirche Münchehofe",
