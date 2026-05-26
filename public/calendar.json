@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-05-25T07:16:20.853Z",
-  "count": 7,
+  "updatedAt": "2026-05-26T06:49:03.297Z",
+  "count": 6,
   "events": [
-    {
-      "uid": "7ACB94A9-BE32-428B-8A10-FBFBAB019C26",
-      "title": "OrgelDienst \"Pfingst-Montag\"\\, Dorfkirche Münchehofe",
-      "description": "",
-      "location": "",
-      "start": "2026-05-25T10:00:00.000Z",
-      "end": "2026-05-25T11:30:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "5384551D-EA12-4E65-B624-9B2EDED78D2B",
       "title": "OrgelDienst \"Trinitatis\"\\, Dorfkirche Schöneiche",
