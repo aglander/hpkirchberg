@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-27T07:05:10.146Z",
-  "count": 6,
+  "updatedAt": "2026-05-28T06:55:52.788Z",
+  "count": 7,
   "events": [
     {
       "uid": "5384551D-EA12-4E65-B624-9B2EDED78D2B",
@@ -9,6 +9,15 @@
       "location": "",
       "start": "2026-05-31T10:00:00.000Z",
       "end": "2026-05-31T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "FDC1B268-FE5C-41D6-9919-253690142985",
+      "title": "Orgel-Improvisationen über bekannte Kirchenlieder mit Texten von Paul Gerhardt\\, \"Offene Dorfkirche\" Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-06-27T17:00:00.000Z",
+      "end": "2026-06-27T18:00:00.000Z",
       "allDay": false
     },
     {
