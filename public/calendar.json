@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-04T07:25:16.750Z",
-  "count": 6,
+  "updatedAt": "2026-06-05T07:09:26.839Z",
+  "count": 7,
   "events": [
     {
       "uid": "FDC1B268-FE5C-41D6-9919-253690142985",
@@ -27,6 +27,15 @@
       "location": "",
       "start": "2026-06-28T16:00:00.000Z",
       "end": "2026-06-28T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "0199E0D4-8D8B-4638-B5B2-E46367C40FF9",
+      "title": "\"Der Kaiser von Atlantis\"\\, musikalische Präsentation der Faksimile-Ausgabe des Komponisten Viktor Ullmann\\, Neuköllner Oper Berlin",
+      "description": "",
+      "location": "",
+      "start": "2026-07-01T20:00:00.000Z",
+      "end": "2026-07-01T22:00:00.000Z",
       "allDay": false
     },
     {
