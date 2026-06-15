@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-14T07:23:57.614Z",
-  "count": 5,
+  "updatedAt": "2026-06-15T09:24:07.400Z",
+  "count": 7,
   "events": [
     {
       "uid": "FDC1B268-FE5C-41D6-9919-253690142985",
@@ -27,6 +27,24 @@
       "location": "",
       "start": "2026-06-28T16:00:00.000Z",
       "end": "2026-06-28T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "355F3E5E-9E2D-408E-8FF0-35E35D17230A",
+      "title": "Kirchberg spielt Viktor Ullmann anlässlich der Präsentation der Faksimile-Ausgabe der Oper \"Der Kaiser von Atlantis\"\\, Neuköllner Oper Berlin",
+      "description": "",
+      "location": "",
+      "start": "2026-07-01T20:00:00.000Z",
+      "end": "2026-07-01T21:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "7C1BF1E7-0EC1-4A4E-AD4C-B3E9CBC010AD",
+      "title": "Sommersingen mit Thomas Trantow",
+      "description": "",
+      "location": "Schöneiche bei Berlin\\nBrandenburg\\, Deutschland",
+      "start": "2026-07-02T18:00:00.000Z",
+      "end": "2026-07-02T19:30:00.000Z",
       "allDay": false
     },
     {
