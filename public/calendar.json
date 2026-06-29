@@ -1,25 +1,7 @@
 {
-  "updatedAt": "2026-06-28T07:03:17.395Z",
-  "count": 6,
+  "updatedAt": "2026-06-29T08:14:20.367Z",
+  "count": 4,
   "events": [
-    {
-      "uid": "FE381EE3-0A42-4E73-9F90-5E11F3EE85D8",
-      "title": "OrgelDienst OpenAir zum Heimatfest Schöneiche",
-      "description": "",
-      "location": "",
-      "start": "2026-06-28T10:00:00.000Z",
-      "end": "2026-06-28T11:30:00.000Z",
-      "allDay": false
-    },
-    {
-      "uid": "C99EF527-2838-49F2-8F78-5007AA375DB7",
-      "title": "Konzert für 2 Violinen und Orgel\\, \"Offene Dorfkirche\" Schöneiche",
-      "description": "",
-      "location": "",
-      "start": "2026-06-28T16:00:00.000Z",
-      "end": "2026-06-28T17:00:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "355F3E5E-9E2D-408E-8FF0-35E35D17230A",
       "title": "Kirchberg spielt Viktor Ullmann anlässlich der Präsentation der Faksimile-Ausgabe der Oper \"Der Kaiser von Atlantis\"\\, Neuköllner Oper Berlin",
