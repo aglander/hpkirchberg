@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-07-02T06:41:46.235Z",
-  "count": 3,
+  "updatedAt": "2026-07-03T06:33:39.526Z",
+  "count": 2,
   "events": [
-    {
-      "uid": "7C1BF1E7-0EC1-4A4E-AD4C-B3E9CBC010AD",
-      "title": "Sommersingen mit Thomas Trantow",
-      "description": "",
-      "location": "Schöneiche bei Berlin\\nBrandenburg\\, Deutschland",
-      "start": "2026-07-02T18:00:00.000Z",
-      "end": "2026-07-02T19:30:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "1AE51C40-2200-4FA8-AF87-7887C66D02A5",
       "title": "OrgelDienst \"3.n.Trinitatis\"\\, Dorfkirche Schöneiche",
