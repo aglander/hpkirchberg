@@ -1,14 +1,77 @@
 {
-  "updatedAt": "2026-07-14T05:32:08.127Z",
-  "count": 2,
+  "updatedAt": "2026-07-15T05:33:12.255Z",
+  "count": 10,
   "events": [
     {
+      "uid": "DE2A29DA-8D7C-42F6-8CF3-0EE702C9ED2D",
+      "title": "Senioren-Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski ",
+      "description": "",
+      "location": "",
+      "start": "2026-07-15T15:00:00.000Z",
+      "end": "2026-07-15T17:00:00.000Z",
+      "allDay": false
+    },
+    {
       "uid": "1AE51C40-2200-4FA8-AF87-7887C66D02A5",
-      "title": "OrgelDienst \"3.n.Trinitatis\"\\, Dorfkirche Schöneiche",
+      "title": "OrgelDienst \"8.n.Trinitatis\"\\, Dorfkirche Schöneiche\\, PfrIn. Metzner",
       "description": "",
       "location": "",
       "start": "2026-07-26T10:00:00.000Z",
       "end": "2026-07-26T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "FBAE45C2-CFD5-43ED-B991-1388BB54B5E7",
+      "title": "OrgelDienst \"10.n.Trinitatis\\, Dorfkirche Münchehofe\\, PfrIn. Jawer",
+      "description": "",
+      "location": "",
+      "start": "2026-08-09T10:00:00.000Z",
+      "end": "2026-08-09T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "F69F8FA9-EA9D-41CB-AF61-F4D30DB26CE2",
+      "title": "Senioren-Andacht und Singen\\,  Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski ",
+      "description": "",
+      "location": "",
+      "start": "2026-08-19T15:00:00.000Z",
+      "end": "2026-08-19T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "C2149675-4035-4B18-9CA0-10D081FEB5A8",
+      "title": "Orgelmusik in der \"Offenen Dorfkirche\"\\, Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-08-22T16:00:00.000Z",
+      "end": "2026-08-22T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "9C854A7D-E03D-4B56-A726-DCFED1E3AF27",
+      "title": "OrgelDienst \"12.n.Trinitatis\"\\, Dorfkirche Schöneiche\\, PfrIn. Jawer",
+      "description": "",
+      "location": "",
+      "start": "2026-08-23T10:00:00.000Z",
+      "end": "2026-08-23T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "9852B3B9-DFF6-4154-95F1-C857D413587A",
+      "title": "Singen zum SpätSommer mit Th.Trantow\\, Dorfkirche Schöneiche\\,",
+      "description": "",
+      "location": "",
+      "start": "2026-08-28T18:00:00.000Z",
+      "end": "2026-08-28T19:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "8FA35701-B7B2-4C78-99ED-32916B45E1D3",
+      "title": "OrgelDienst \"13.n.Trinitatis\" Familien-GD zum Schulanfang",
+      "description": "",
+      "location": "",
+      "start": "2026-08-30T10:00:00.000Z",
+      "end": "2026-08-30T11:30:00.000Z",
       "allDay": false
     },
     {
@@ -18,6 +81,15 @@
       "location": "",
       "start": "2026-09-16T15:00:00.000Z",
       "end": "2026-09-16T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "9E888566-2E84-4BB5-96B7-E1D59688874E",
+      "title": "\"Mittenmang\"-Treffen\\, Präsentation von ausgesuchten Musiker-Autographen\\, Kapelle Fichtenau",
+      "description": "",
+      "location": "",
+      "start": "2026-09-16T18:00:00.000Z",
+      "end": "2026-09-16T20:00:00.000Z",
       "allDay": false
     }
   ]
