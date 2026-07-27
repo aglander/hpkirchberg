@@ -1,16 +1,7 @@
 {
-  "updatedAt": "2026-07-26T06:06:57.011Z",
-  "count": 9,
+  "updatedAt": "2026-07-27T06:31:55.126Z",
+  "count": 8,
   "events": [
-    {
-      "uid": "1AE51C40-2200-4FA8-AF87-7887C66D02A5",
-      "title": "OrgelDienst \"8.n.Trinitatis\"\\, Dorfkirche Schöneiche\\, PfrIn. Metzner",
-      "description": "",
-      "location": "",
-      "start": "2026-07-26T10:00:00.000Z",
-      "end": "2026-07-26T11:30:00.000Z",
-      "allDay": false
-    },
     {
       "uid": "FBAE45C2-CFD5-43ED-B991-1388BB54B5E7",
       "title": "OrgelDienst \"10.n.Trinitatis\\, Dorfkirche Münchehofe\\, PfrIn. Jawer",
