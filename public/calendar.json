@@ -1,24 +1,5 @@
 {
-  "updatedAt": "2026-09-16T08:21:00.860Z",
-  "count": 2,
-  "events": [
-    {
-      "uid": "41E08DB4-C6A9-471E-B427-CF45460B2033",
-      "title": "Senioren Andacht und Singen\\, Kapelle Fichtenau\\, Brigitte & Klaus Guttkowski     ",
-      "description": "",
-      "location": "",
-      "start": "2026-09-16T15:00:00.000Z",
-      "end": "2026-09-16T17:00:00.000Z",
-      "allDay": false
-    },
-    {
-      "uid": "9E888566-2E84-4BB5-96B7-E1D59688874E",
-      "title": "\"Mittenmang\"-Treffen\\, Präsentation von ausgesuchten Musiker-Autographen\\, Kapelle Fichtenau",
-      "description": "",
-      "location": "",
-      "start": "2026-09-16T18:00:00.000Z",
-      "end": "2026-09-16T20:00:00.000Z",
-      "allDay": false
-    }
-  ]
+  "updatedAt": "2026-09-17T08:27:03.019Z",
+  "count": 0,
+  "events": []
 }
