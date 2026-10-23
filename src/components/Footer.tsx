@@ -21,14 +21,13 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} Hans-Peter Kirchberg. Alle Rechte vorbehalten.
             <span className="mx-2">|</span>
-            Erstellt und betreut von{" "}
             <a
               href="https://www.vanglan.com"
               target="_blank"
               rel="noopener"
               className="underline hover:text-gray-600"
             >
-              VanGlan
+              Website von vanglan.com
             </a>
           </p>
         </div>
