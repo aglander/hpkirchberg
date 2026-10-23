@@ -1,10 +1,7 @@
 const Footer = () => {
   const navItems = [
-    { name: "Biographie", href: "/biographie" },
-    { name: "Musik", href: "/musik" },
-    { name: "Bilder", href: "/bilder" },
-    { name: "Links", href: "/links" },
-    { name: "Kontakt", href: "/kontakt" },
+    { name: "Impressum", href: "/impressum" },
+    { name: "Datenschutz", href: "/datenschutz" },
   ];
 
   return (
@@ -20,8 +17,20 @@ const Footer = () => {
             </span>
           ))}
         </div>
-        <div className="mt-8 text-center text-sm">
-          <p>© {new Date().getFullYear()} Hans-Peter Kirchberg. Alle Rechte vorbehalten.</p>
+        <div className="mt-4 text-center text-sm">
+          <p>
+            © {new Date().getFullYear()} Hans-Peter Kirchberg. Alle Rechte vorbehalten.
+            <span className="mx-2">|</span>
+            Erstellt und betreut von{" "}
+            <a
+              href="https://www.vanglan.com"
+              target="_blank"
+              rel="noopener"
+              className="underline hover:text-gray-600"
+            >
+              VanGlan
+            </a>
+          </p>
         </div>
       </div>
     </footer>
