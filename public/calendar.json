@@ -1,5 +1,24 @@
 {
-  "updatedAt": "2026-10-23T08:18:38.441Z",
-  "count": 0,
-  "events": []
+  "updatedAt": "2026-10-24T07:56:00.937Z",
+  "count": 2,
+  "events": [
+    {
+      "uid": "7DFA345B-C4E7-46AC-9E1F-9FB2C6C9968F",
+      "title": "Orgelmusik in der \"Offenen Dorfkirche\"\\, Dorfkirche Schöneiche",
+      "description": "",
+      "location": "",
+      "start": "2026-10-24T16:00:00.000Z",
+      "end": "2026-10-24T17:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "FEAA3FF2-0FDB-4D9E-A6C7-470940394E3D",
+      "title": "OrgelDienst 21.n.Tr. \\, Lektor J. Kirchner",
+      "description": "",
+      "location": "Gemeindezentrum Kapelle Fichtenau\\nLübecker Straße 14\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
+      "start": "2026-10-25T10:00:00.000Z",
+      "end": "2026-10-25T11:00:00.000Z",
+      "allDay": false
+    }
+  ]
 }
