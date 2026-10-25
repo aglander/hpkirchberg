@@ -5,11 +5,11 @@ import { pianistImages, conductorImages, importantMeetingsImages, pressImages } 
 
 const Pictures = () => {
   return (
-    <div className="min-h-screen bg-[#EDE9CE]">
+    <div className="min-h-screen bg-paper">
       <Navbar />
-      <main className="flex-grow">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h1 className="text-4xl font-serif mb-8">Bilder</h1>
+      <main id="inhalt" className="flex-grow">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+          <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Bilder</h1>
           
           <ImageGrid title="Als Pianist" images={pianistImages} />
           <ImageGrid title="Als Dirigent" images={conductorImages} />

@@ -15,29 +15,29 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#EDE9CE]">
+    <div className="min-h-screen bg-paper">
       <Navbar />
-      <main className="max-w-4xl mx-auto px-6 py-12">
-        <div className="bg-white/80 rounded-lg shadow-lg p-8">
-          <h1 className="text-4xl font-serif mb-8">Kontakt</h1>
+      <main id="inhalt" className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+        <div className="max-w-3xl">
+          <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Kontakt</h1>
 
-          <h2 className="text-xl font-semibold mb-4">{info.title}</h2>
+          <h2 className="text-2xl font-serif font-semibold mb-6">{info.title}</h2>
 
           <div className="space-y-3">
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-primary mt-1" />
               <div>
-                <p className="text-gray-600">{info.address}</p>
-                <p className="text-gray-600">{info.city}</p>
+                <p>{info.address}</p>
+                <p>{info.city}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-3">
               <Phone className="w-5 h-5 text-primary mt-1" />
               <div>
-                <p className="text-gray-600">Tel: {info.phone}</p>
+                <p>Tel: <a className="underline underline-offset-4 hover:text-oxblood" href={`tel:${info.phone.replace(/\s/g, "")}`}>{info.phone}</a></p>
                 {info.mobile && (
-                  <p className="text-gray-600">Mobil: {info.mobile}</p>
+                  <p>Mobil: <a className="underline underline-offset-4 hover:text-oxblood" href={`tel:${info.mobile.replace(/\s/g, "")}`}>{info.mobile}</a></p>
                 )}
               </div>
             </div>
@@ -46,7 +46,7 @@ const Contact = () => {
               <Mail className="w-5 h-5 text-primary mt-1" />
               <a
                 href={`mailto:${info.email}`}
-                className="text-primary hover:underline"
+                className="text-primary underline underline-offset-4 hover:text-oxblood"
               >
                 {info.email}
               </a>
@@ -58,7 +58,7 @@ const Contact = () => {
                 href={`http://${info.website}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:underline"
+                className="text-primary underline underline-offset-4 hover:text-oxblood"
               >
                 {info.website}
               </a>

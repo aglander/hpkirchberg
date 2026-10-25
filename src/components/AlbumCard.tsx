@@ -4,44 +4,31 @@ interface AlbumCardProps {
   album: Album;
 }
 
-const AlbumCard = ({ album }: AlbumCardProps) => {
-  console.log("Rendering album card:", album.title, "with cover:", album.coverImage); // Debug log
-
-  return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200">
-      <div className="aspect-square overflow-hidden">
-        <img
-          src={album.coverImage}
-          alt={`Cover for ${album.title}`}
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
-          onError={(e) => {
-            console.error(`Error loading image for ${album.title}:`, e);
-            e.currentTarget.src = "/placeholder.svg"; // Fallback image
-          }}
-          loading="lazy"
-        />
-      </div>
-      <div className="p-4">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="text-sm text-gray-500">{album.year}</span>
-          {album.composer && (
-            <span className="text-sm text-gray-500">• {album.composer}</span>
-          )}
-        </div>
-        <h3 className="text-xl font-semibold mb-3 line-clamp-2">{album.title}</h3>
-        <div className="space-y-1">
-          {album.performers.map((performer, index) => (
-            <p key={index} className="text-gray-600 text-sm">{performer}</p>
-          ))}
-        </div>
-        {album.orderInfo && (
-          <p className="text-sm text-primary mt-4 border-t pt-2 border-gray-100">
-            {album.orderInfo}
-          </p>
-        )}
-      </div>
+const AlbumCard = ({ album }: AlbumCardProps) => (
+  <article>
+    <div className="aspect-square overflow-hidden bg-ink/10">
+      <img
+        src={album.coverImage}
+        alt={`Cover: ${album.title}`}
+        className="w-full h-full object-cover"
+        onError={(e) => {
+          e.currentTarget.src = "/placeholder.svg";
+        }}
+        loading="lazy"
+      />
     </div>
-  );
-};
+    <p className="mt-4 font-serif font-semibold text-4xl leading-none [font-variant-numeric:lining-nums]">
+      {album.year}
+    </p>
+    <h2 className="mt-2 text-2xl font-serif font-semibold leading-tight">{album.title}</h2>
+    {album.composer && <p className="mt-1 text-ink-soft">{album.composer}</p>}
+    <div className="mt-3 space-y-1">
+      {album.performers.map((performer, index) => (
+        <p key={index}>{performer}</p>
+      ))}
+    </div>
+    {album.orderInfo && <p className="mt-3 text-primary font-semibold">{album.orderInfo}</p>}
+  </article>
+);
 
 export default AlbumCard;

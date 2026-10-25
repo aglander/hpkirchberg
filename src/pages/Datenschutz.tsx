@@ -2,14 +2,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Datenschutz = () => (
-  <div className="min-h-screen bg-[#EDE9CE]">
+  <div className="min-h-screen bg-paper">
     <Navbar />
-    <main className="max-w-4xl mx-auto px-6 py-12">
-      <div className="bg-white/80 rounded-lg shadow-lg p-8 space-y-6 text-gray-700">
-        <h1 className="text-4xl font-serif text-gray-900">Datenschutzerklärung</h1>
+    <main id="inhalt" className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+      <div className="max-w-[68ch] space-y-6 text-ink">
+        <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Datenschutzerklärung</h1>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">1. Verantwortlicher</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">1. Verantwortlicher</h2>
           <p>
             Hans-Peter Kirchberg, Fontanestr. 49, D-15566 Schöneiche bei Berlin
             <br />
@@ -22,7 +22,7 @@ const Datenschutz = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">2. Hosting und Server-Logfiles</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">2. Hosting und Server-Logfiles</h2>
           <p>
             Diese Website wird bei Netlify, Inc., 101 2nd Street, San Francisco, CA 94105,
             USA, gehostet. Beim Aufruf werden durch Netlify technisch notwendige Daten
@@ -41,7 +41,7 @@ const Datenschutz = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">3. Cookies und Tracking</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">3. Cookies und Tracking</h2>
           <p>
             Diese Website setzt keine Cookies und verwendet keine Tracking- oder
             Analyse-Dienste, die einer Einwilligung bedürfen. Schriftarten, Bilder und Kalenderdaten
@@ -50,7 +50,7 @@ const Datenschutz = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">4. Kontaktaufnahme</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">4. Kontaktaufnahme</h2>
           <p>
             Wenn Sie per E-Mail oder Telefon Kontakt aufnehmen, werden Ihre Angaben zur
             Bearbeitung der Anfrage verarbeitet und nach Erledigung gelöscht, soweit keine
@@ -59,7 +59,7 @@ const Datenschutz = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">5. Externe Links</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">5. Externe Links</h2>
           <p>
             Diese Website enthält Links zu Websites Dritter. Beim Anklicken gelten die
             Datenschutzbestimmungen des jeweiligen Anbieters.
@@ -67,7 +67,7 @@ const Datenschutz = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">6. Ihre Rechte</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">6. Ihre Rechte</h2>
           <p>
             Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der
             Verarbeitung, Datenübertragbarkeit und Widerspruch gegen die Verarbeitung Ihrer Daten.

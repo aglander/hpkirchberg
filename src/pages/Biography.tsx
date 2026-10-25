@@ -3,11 +3,11 @@ import Footer from "@/components/Footer";
 
 const Biography = () => {
   return (
-    <div className="min-h-screen bg-[#EDE9CE]">
+    <div className="min-h-screen bg-paper">
       <Navbar />
-      <main className="max-w-4xl mx-auto px-6 py-12">
-        <div className="bg-white/80 rounded-lg shadow-lg p-8">
-          <h1 className="text-4xl font-serif mb-8">Biographie</h1>
+      <main id="inhalt" className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+        <div className="max-w-3xl">
+          <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Biographie</h1>
 
           <div className="prose prose-lg max-w-none">
             <section className="mb-8">

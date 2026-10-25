@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ExternalLink } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 
 const Links = () => {
   const links = [
@@ -36,35 +35,32 @@ const Links = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#EDE9CE]">
+    <div className="min-h-screen bg-paper">
       <Navbar />
-      <main className="flex-grow">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h1 className="text-4xl font-serif text-gray-900 mb-8">Links</h1>
+      <main id="inhalt" className="flex-grow">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+          <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Links</h1>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {links.map((link, index) => (
-              <a
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block transition-transform hover:scale-[1.02]"
-              >
-                <Card className="h-full bg-white hover:shadow-lg transition-shadow">
-                  <CardContent className="p-6">
-                    <h2 className="text-xl font-semibold mb-2">{link.title}</h2>
-                    <p className="text-gray-600 mb-4">{link.description}</p>
-                    <span className="inline-flex items-center text-primary hover:text-primary/80 transition-colors">
-                      Besuchen <ExternalLink className="ml-2 h-4 w-4" />
-                    </span>
-                  </CardContent>
-                </Card>
-              </a>
+              <li key={index}>
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex flex-col h-full bg-surface p-6 hover:bg-white/70 transition-colors"
+                >
+                  <h2 className="text-2xl font-serif font-semibold mb-2 group-hover:text-oxblood">{link.title}</h2>
+                  <p className="mb-4 flex-grow">{link.description}</p>
+                  <span className="inline-flex items-center self-start min-h-11 font-semibold text-oxblood underline underline-offset-4">
+                    Besuchen <ExternalLink className="ml-2 h-4 w-4" aria-hidden="true" />
+                  </span>
+                </a>
+              </li>
             ))}
-          </div>
+          </ul>
 
-          <div className="mt-12 text-sm text-gray-500 space-y-4">
+          <div className="mt-12 text-base text-ink-soft space-y-4 max-w-[68ch]">
             <p>
               Mit Urteil vom 12.Mai 1998 hat das Landgericht Hamburg
               entschieden, dass durch die Anbringung eines Links die Inhalte der

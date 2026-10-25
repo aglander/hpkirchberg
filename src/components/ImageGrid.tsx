@@ -12,25 +12,28 @@ const ImageGrid = ({ images, title }: ImageGridProps) => {
 
   return (
     <section className="mb-12">
-      <h2 className="text-2xl font-serif mb-6">{title}</h2>
+      <h2 className="text-3xl font-serif font-semibold mb-6">{title}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((image, index) => (
-          <div 
-            key={index} 
-            className="relative group cursor-pointer"
+          <button
+            type="button"
+            key={index}
+            className="text-left group"
             onClick={() => setSelectedImage(image)}
+            aria-label={`Foto vergrößern${image.year ? `, ${image.year}` : ""}`}
           >
             <img
               src={image.src}
-              alt={`Historical photograph from ${title} section${image.year ? ` - ${image.year}` : ''}`}
-              className="w-full h-64 object-cover object-top rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105"
+              alt={`${title}${image.year ? `, ${image.year}` : ""}`}
+              loading="lazy"
+              className="w-full h-64 object-cover object-top"
             />
             {image.year && (
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-lg">
-                <p className="text-sm text-center">{image.year}</p>
-              </div>
+              <span className="mt-2 block font-serif font-semibold text-2xl [font-variant-numeric:lining-nums]">
+                {image.year}
+              </span>
             )}
-          </div>
+          </button>
         ))}
       </div>
 
@@ -39,7 +42,7 @@ const ImageGrid = ({ images, title }: ImageGridProps) => {
           isOpen={!!selectedImage}
           onClose={() => setSelectedImage(null)}
           imageSrc={selectedImage.src}
-          imageAlt={`Historical photograph from ${title} section${selectedImage.year ? ` - ${selectedImage.year}` : ''}`}
+          imageAlt={`${title}${selectedImage.year ? `, ${selectedImage.year}` : ""}`}
         />
       )}
     </section>

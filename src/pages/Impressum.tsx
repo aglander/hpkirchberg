@@ -2,14 +2,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Impressum = () => (
-  <div className="min-h-screen bg-[#EDE9CE]">
+  <div className="min-h-screen bg-paper">
     <Navbar />
-    <main className="max-w-4xl mx-auto px-6 py-12">
-      <div className="bg-white/80 rounded-lg shadow-lg p-8 space-y-6 text-gray-700">
-        <h1 className="text-4xl font-serif text-gray-900">Impressum</h1>
+    <main id="inhalt" className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+      <div className="max-w-[68ch] space-y-6 text-ink">
+        <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Impressum</h1>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Angaben gemäß § 5 DDG</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">Angaben gemäß § 5 DDG</h2>
           <p>
             Hans-Peter Kirchberg
             <br />
@@ -20,7 +20,7 @@ const Impressum = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Kontakt</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">Kontakt</h2>
           <p>
             Telefon: +49 30 643 89 560
             <br />
@@ -34,7 +34,7 @@ const Impressum = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Haftung für Links</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">Haftung für Links</h2>
           <p>
             Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte kein
             Einfluss besteht. Für diese fremden Inhalte kann daher keine Gewähr übernommen werden.
@@ -44,7 +44,7 @@ const Impressum = () => (
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Urheberrecht</h2>
+          <h2 className="text-2xl font-serif font-semibold text-ink mb-2">Urheberrecht</h2>
           <p>
             Die auf dieser Website veröffentlichten Inhalte, Texte, Bilder und Musikaufnahmen
             unterliegen dem Urheberrecht. Eine Verwendung außerhalb der gesetzlichen Grenzen

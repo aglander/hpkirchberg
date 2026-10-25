@@ -1,39 +1,43 @@
-const Footer = () => {
-  const navItems = [
-    { name: "Impressum", href: "/impressum" },
-    { name: "Datenschutz", href: "/datenschutz" },
-  ];
+const legal = [
+  { name: "Impressum", href: "/impressum" },
+  { name: "Datenschutz", href: "/datenschutz" },
+];
 
-  return (
-    <footer className="bg-[#EDE9CE] text-gray-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-wrap justify-center gap-4">
-          {navItems.map((item, index) => (
-            <span key={item.name}>
-              <a href={item.href} className="hover:text-gray-600">
-                {item.name}
-              </a>
-              {index < navItems.length - 1 && <span className="ml-4">|</span>}
-            </span>
-          ))}
+const Footer = ({ closing = false }: { closing?: boolean }) => (
+  <footer className="bg-ink text-paper overflow-hidden">
+    <div className="max-w-6xl mx-auto px-5 md:px-8">
+      {closing && (
+        <div className="pt-20 md:pt-28">
+          <a
+            href="/kontakt"
+            className="inline-block font-serif font-semibold text-[clamp(2.25rem,5vw,4.5rem)] leading-[1.02] underline decoration-2 underline-offset-[0.18em] decoration-paper/50 hover:decoration-paper transition-colors"
+          >
+            Schreiben Sie mir.
+          </a>
         </div>
-        <div className="mt-4 text-center text-sm">
-          <p>
-            © {new Date().getFullYear()} Hans-Peter Kirchberg. Alle Rechte vorbehalten.
-            <span className="mx-2">|</span>
-            <a
-              href="https://www.vanglan.com"
-              target="_blank"
-              rel="noopener"
-              className="underline hover:text-gray-600"
-            >
-              Website von vanglan.com
+      )}
+
+      <div className={`flex flex-wrap justify-between gap-x-8 gap-y-1 text-base ${closing ? "mt-16 md:mt-24 pb-8" : "py-8"}`}>
+        <p>© {new Date().getFullYear()} Hans-Peter Kirchberg</p>
+        <div className="flex flex-wrap gap-x-6">
+          {legal.map((item) => (
+            <a key={item.name} href={item.href} className="inline-flex items-center min-h-11 hover:underline underline-offset-4">
+              {item.name}
             </a>
-          </p>
+          ))}
+          <a
+            href="https://www.vanglan.com"
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center min-h-11 underline underline-offset-4"
+          >
+            Website von vanglan.com
+          </a>
         </div>
       </div>
-    </footer>
-  );
-};
+    </div>
+
+  </footer>
+);
 
 export default Footer;

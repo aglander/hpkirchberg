@@ -1,17 +1,18 @@
+@import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 52 37% 87%;
+    --foreground: 45 16% 10%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 0 76% 57%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 63% 29%;
+    --primary-foreground: 52 37% 94%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
@@ -23,7 +24,12 @@
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
-    --radius: 0.5rem;
+    --radius: 0rem;
+    --paper: #EDE9CE;
+    --surface: #F6F3E3;
+    --ink: #1D1B15;
+    --ink-soft: #47432F;
+    --oxblood: #7A1C1C;
   }
  
   .dark {
@@ -54,18 +60,37 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+    font-size: 1.0625rem;
+    line-height: 1.55;
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: var(--oxblood);
+    color: var(--paper);
+  }
+  :focus-visible {
+    outline: 3px solid var(--oxblood);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
   }
 }
 
-.nav-link {
-  @apply relative px-3 py-2 text-gray-700 hover:text-primary transition-colors duration-200;
-}
 
-.nav-link::after {
-  @apply content-[''] absolute left-0 bottom-0 w-0 h-0.5 bg-primary transition-all duration-300;
+#root > div {
+  display: flex;
+  flex-direction: column;
 }
-
-.nav-link:hover::after {
-  @apply w-full;
+#root > div > footer {
+  margin-top: auto;
+}
+#root > div > main {
+  width: 100%;
 }

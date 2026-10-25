@@ -15,7 +15,7 @@ const imageModules = import.meta.glob<{ default: ViteImageToolsImage }>(
   "/src/assets/**/*",
   {
     eager: true,
-    query: "?w=100;300;500;700;1200;1600&format=webp;avif;jpg&as=picture",
+    query: "?w=100;300;500;700;1200;1600;2400&format=webp;avif;jpg&as=picture",
   }
 );
 
@@ -31,49 +31,29 @@ const ResponsiveImage: React.FC<ResponsiveImageProps> = ({
     return <span>Image not found</span>;
   }
 
-  // Get sorted images by size
-  const srcSetEntries = Object.entries(image.sources || {})
-    .flatMap(([format, srcSet]) =>
-      srcSet.split(", ").map((src) => ({
-        format,
-        src: src.split(" ")[0],
-        width: parseInt(src.split(" ")[1]),
-      }))
-    )
-    .sort((a, b) => a.width - b.width);
-
-  // Keep only unique widths
-  const filteredSrcSet = srcSetEntries.filter(
-    (img, index, self) =>
-      self.findIndex((t) => t.width === img.width) === index
+  // Hand the browser every width and let it pick by viewport and pixel
+  // density, so a phone with a 3x screen gets a sharp image.
+  const order = ["avif", "webp", "jpg", "jpeg"];
+  const sources = Object.entries(image.sources || {}).sort(
+    ([a], [b]) => order.indexOf(a) - order.indexOf(b),
   );
-
-  // **Updated Breakpoints for More Accurate Scaling**
-  const breakpoints = [
-    { minWidth: 1200, width: 1600 }, // Large desktops
-    { minWidth: 1024, width: 1200 }, // Regular desktops
-    { minWidth: 768, width: 700 }, // Tablets
-    { minWidth: 480, width: 500 }, // Large phones
-    { minWidth: 0, width: 300 }, // Small phones
-  ];
+  const jpgSet = image.sources?.jpg ?? image.sources?.jpeg;
+  const fallback = jpgSet
+    ? jpgSet.split(", ").map((src) => ({ url: src.split(" ")[0], width: parseInt(src.split(" ")[1]) }))
+    : [];
+  const fallbackSrc =
+    fallback.find((f) => f.width >= 1200)?.url ?? fallback[fallback.length - 1]?.url ?? image.img.src;
 
   return (
     <picture>
-      {breakpoints.map(({ minWidth, width }) => {
-        const match = filteredSrcSet.find((img) => img.width === width);
-        return match ? (
-          <source
-            key={width}
-            media={`(min-width: ${minWidth}px)`}
-            srcSet={match.src}
-            type={`image/${match.format}`}
-          />
-        ) : null;
-      })}
+      {sources.map(([format, srcSet]) => (
+        <source key={format} type={`image/${format === "jpg" ? "jpeg" : format}`} srcSet={srcSet} sizes="100vw" />
+      ))}
       <img
-        src={filteredSrcSet[0]?.src || image.img.src} // Smallest image fallback
+        src={fallbackSrc}
         decoding="async"
         loading="eager"
+        fetchPriority="high"
         alt={alt}
         className={`max-w-full h-auto ${className}`}
         style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }}

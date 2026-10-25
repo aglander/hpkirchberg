@@ -10,29 +10,25 @@ const Music = () => {
     queryFn: getAllAlbums,
   });
 
-  console.log("Rendering Music page with", albums?.length, "albums"); // Debug log
-
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    console.error("Error loading albums:", error);
-    return <div>Error loading albums</div>;
-  }
+  if (error) console.error("Error loading albums:", error);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#EDE9CE]">
+    <div className="min-h-screen flex flex-col bg-paper">
       <Navbar />
-      <main className="flex-grow">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h1 className="text-4xl font-serif text-gray-900 mb-8">Diskographie</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {albums?.map((album) => {
-              console.log("Rendering album:", album.title, "with image:", album.coverImage);
-              return <AlbumCard key={`${album.title}-${album.year}`} album={album} />;
-            })}
-          </div>
+      <main id="inhalt" className="flex-grow">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-12 md:py-20">
+          <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-10">Diskographie</h1>
+          {isLoading ? (
+            <p className="text-xl">Aufnahmen werden geladen …</p>
+          ) : error ? (
+            <p className="text-xl">Die Aufnahmen konnten gerade nicht geladen werden. Bitte versuchen Sie es später noch einmal.</p>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
+              {albums?.map((album) => (
+                <AlbumCard key={`${album.title}-${album.year}`} album={album} />
+              ))}
+            </div>
+          )}
         </div>
       </main>
       <Footer />
