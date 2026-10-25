@@ -11,7 +11,7 @@ const Contact = () => {
     phone: "+49 30 643 89 560",
     mobile: "+49 177 21 767 56",
     email: "hans-peterkirchberg@gmx.de",
-    website: "www.hpkirchberg.de",
+    website: "hpkirchberg.de",
   };
 
   return (
@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="flex items-start gap-3">
               <ExternalLink className="w-5 h-5 text-primary mt-1" />
               <a
-                href={`http://${info.website}`}
+                href={`https://${info.website}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary underline underline-offset-4 hover:text-oxblood"

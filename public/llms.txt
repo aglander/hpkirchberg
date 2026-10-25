@@ -1,0 +1,18 @@
+# Hans-Peter Kirchberg
+
+> Persönliche Webseite von Hans-Peter Kirchberg, Dirigent, Pianist und Musikalischer Leiter in Schöneiche bei Berlin. Biographie, Fotoarchiv, Diskographie und Termine.
+
+## Seiten
+
+- [Startseite](https://hpkirchberg.de/): Willkommen, nächster Termin, Auszüge aus Archiv und Aufnahmen.
+- [Termine](https://hpkirchberg.de/termine): Kommende Auftritte und Veranstaltungen.
+- [Biographie](https://hpkirchberg.de/biographie): Werdegang, Ausbildung und Stationen.
+- [Musik](https://hpkirchberg.de/musik): Diskographie mit Aufnahmen, Mitwirkenden und Bestellhinweisen.
+- [Bilder](https://hpkirchberg.de/bilder): Fotoarchiv als Pianist, als Dirigent, Begegnungen und Presse.
+- [Links](https://hpkirchberg.de/links): Empfohlene Webseiten.
+- [Kontakt](https://hpkirchberg.de/kontakt): Anschrift, Telefon und E-Mail.
+
+## Rechtliches
+
+- [Impressum](https://hpkirchberg.de/impressum)
+- [Datenschutz](https://hpkirchberg.de/datenschutz)
