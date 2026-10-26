@@ -1,15 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:10:26.948Z",
-  "count": 1,
-  "events": [
-    {
-      "uid": "FEAA3FF2-0FDB-4D9E-A6C7-470940394E3D",
-      "title": "OrgelDienst 21.n.Tr. \\, Lektor J. Kirchner",
-      "description": "",
-      "location": "Gemeindezentrum Kapelle Fichtenau\\nLübecker Straße 14\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
-      "start": "2026-10-25T10:00:00.000Z",
-      "end": "2026-10-25T11:00:00.000Z",
-      "allDay": false
-    }
-  ]
+  "updatedAt": "2026-10-26T08:36:29.822Z",
+  "count": 0,
+  "events": []
 }
