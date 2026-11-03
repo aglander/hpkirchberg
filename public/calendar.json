@@ -1,5 +1,33 @@
 {
-  "updatedAt": "2026-11-02T10:39:42.141Z",
-  "count": 0,
-  "events": []
+  "updatedAt": "2026-11-03T10:30:56.209Z",
+  "count": 3,
+  "events": [
+    {
+      "uid": "696232C4-9305-4025-B5B8-DCE0D6438E97",
+      "title": "OrgelDienst 21.n.Tr. \\, Pfrn.Steffi Jawer\\, Beginn der Friedensdekade",
+      "description": "",
+      "location": "Gemeindezentrum Kapelle Fichtenau\\nLübecker Straße 14\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
+      "start": "2026-11-08T10:00:00.000Z",
+      "end": "2026-11-08T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "6F161202-8924-4BFB-8870-7B160185D19A",
+      "title": "OrgelDienst\\, Guttkowski/Jawer\\, Friedensdekade",
+      "description": "",
+      "location": "Gemeindezentrum Kapelle Fichtenau\\nLübecker Straße 14\\, Schöneiche\\, 15566 Schöneiche bei Berlin\\, Deutschland",
+      "start": "2026-11-15T10:00:00.000Z",
+      "end": "2026-11-15T11:30:00.000Z",
+      "allDay": false
+    },
+    {
+      "uid": "0C03A4FF-83F0-41E3-B544-B312FEBE8F10",
+      "title": "OrgelDienst Buß-und Bettag\\, Senioren\\, Gemeindezentrum Kapelle Fichtenau ",
+      "description": "",
+      "location": "",
+      "start": "2026-11-18T15:00:00.000Z",
+      "end": "2026-11-18T17:00:00.000Z",
+      "allDay": false
+    }
+  ]
 }
